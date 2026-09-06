@@ -19,6 +19,7 @@ export function validate(d){
  for(const v of d.videos)if(!/^[A-Za-z0-9_-]{11}$/.test(v.id)||!['clip','live'].includes(v.kind))throw new Error('Invalid video');
  for(const im of [d.portrait.image,...d.releases.map(r=>r.cover),...d.videos.map(v=>v.poster)]){safePath(im.path);if(im.small)safePath(im.small);if(!(im.width>0&&im.height>0))throw new Error('No intrinsic dimensions');}
  for(const l of locales)if(!d.artist.intro[l]||d.artist.bio[l].length!==4||Object.keys(ui[l]).join()!==Object.keys(ui.en).join())throw new Error('Translation mismatch');
+ for(const l of locales)if(typeof d.artist.filmsIntro?.[l]!=='string'||!d.artist.filmsIntro[l].trim())throw new Error('Missing localized film introduction');
  if(!/^[^\s@<>]+@[^\s@<>]+\.[^\s@<>]+$/.test(d.artist.email))throw new Error('Invalid email');
  for(const s of d.artist.sources??[]){const u=new URL(s.url);if(u.protocol!=='https:'||u.username||u.password||!s.label)throw new Error('Invalid source reference');}
  return true;

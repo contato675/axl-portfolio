@@ -4,7 +4,8 @@ import path from 'node:path';
 import assert from 'node:assert/strict';
 import {execFileSync} from 'node:child_process';
 import {createHash} from 'node:crypto';
-import {root} from './content.mjs';
+import {root,load} from './content.mjs';
+const d=await load();
 const base='https://contato675.github.io/axl-portfolio/';
 const source=execFileSync('git',['-C',root,'rev-parse','HEAD'],{encoding:'utf8'}).trim();
 const get=rel=>fetch(base+rel+'?verify='+source,{signal:AbortSignal.timeout(25000),redirect:'error',cache:'no-store'});
@@ -17,10 +18,10 @@ async function worker(){while(cursor<files.length){const rel=files[cursor++];if(
 await Promise.all([worker(),worker(),worker(),worker()]);
 for(const [locale,pre] of [['en',''],['pt-BR','pt-br/']]){
  const html=await(await get(pre)).text(),footer=html.match(/<footer[\s\S]*?<\/footer>/)?.[0]||'';
- checks[locale]={language:html.includes('lang="'+locale+'"'),noindex:html.includes('noindex,follow'),moreClipsOpen:html.includes('<details class="video-more" open>'),email:footer.includes('mailto:ruadoflow@gmail.com'),noSSSOMLink:!footer.includes('sssom.com'),noPlayerSubtitle:!html.includes('O player carrega')&&!html.includes('The player loads only'),rollingStone:html.includes('https://rollingstone.com.br/blog-cultura-de-rua/'),jsonLD:html.includes('type="application/ld+json"'),collective:html.includes(locale==='en'?'RUADOFLOW collective':'coletivo RUADOFLOW')};
+ checks[locale]={language:html.includes('lang="'+locale+'"'),noindex:html.includes('noindex,follow'),directorSubtitle:html.includes(d.artist.filmsIntro[locale]),moreClipsOpen:html.includes('<details class="video-more" open>'),email:footer.includes('mailto:ruadoflow@gmail.com'),noSSSOMLink:!footer.includes('sssom.com'),noPlayerSubtitle:!html.includes('O player carrega')&&!html.includes('The player loads only'),rollingStone:html.includes('https://rollingstone.com.br/blog-cultura-de-rua/'),jsonLD:html.includes('type="application/ld+json"'),collective:html.includes(locale==='en'?'RUADOFLOW collective':'coletivo RUADOFLOW')};
 }
 const llms=await(await get('llms.txt')).text(),full=await(await get('llms-full.txt')).text(),robots=await(await get('robots.txt')).text(),sitemap=await(await get('sitemap.xml')).text();
-checks.discovery={llms:llms.startsWith('# A.X.L.')&&llms.includes('index.md'),consolidatedEmail:full.includes('ruadoflow@gmail.com'),consolidatedSource:full.includes('https://rollingstone.com.br/'),searchBot:robots.includes('User-agent: OAI-SearchBot\nAllow:'),trainingBot:robots.includes('User-agent: GPTBot\nDisallow:'),sitemapPreviewEmpty:!sitemap.includes('<url>')};
+checks.discovery={llms:llms.startsWith('# A.X.L.')&&llms.includes('index.md'),directorText:full.includes(d.artist.filmsIntro.en)&&full.includes(d.artist.filmsIntro['pt-BR'])&&llms.includes(d.artist.filmsIntro.en),consolidatedEmail:full.includes('ruadoflow@gmail.com'),consolidatedSource:full.includes('https://rollingstone.com.br/'),searchBot:robots.includes('User-agent: OAI-SearchBot\nAllow:'),trainingBot:robots.includes('User-agent: GPTBot\nDisallow:'),sitemapPreviewEmpty:!sitemap.includes('<url>')};
 const failures=results.filter(r=>!r.hashMatch).length+Object.values(checks).flatMap(Object.values).filter(v=>!v).length;
 const report={date:new Date().toISOString(),source,url:base,files:files.length,failures,checks,results,robotsScope:'Subpath reference only; does not govern github.io host root'};
 await fs.mkdir(path.join(root,'artifacts/editorial'),{recursive:true});await fs.writeFile(path.join(root,'artifacts/editorial/live.json'),JSON.stringify(report,null,2));
