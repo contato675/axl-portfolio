@@ -26,3 +26,6 @@ Each page remains readable without JS. Dialogs have focus management, Escape, Ba
 
 ## Approval boundaries
 Artwork selection supplied by the artist; English biography remains an editorial draft. Full production indexation, domain DNS/HTTPS, real-device gestures and screen-reader-user testing are separate from browser checks. No changes to the live SSSOM profile, parent Cloudflare zone, Renata portfolio or original source files are authorized by this implementation.
+
+## Listening-link completion
+The full TRIZ EP linked by the RND article was found and verified via YouTube oEmbed: https://www.youtube.com/watch?v=h1MeguEF90E — TRIZ, Enquanto Eu Respirar SOU Hinario. Alem da Reza, complete 2016. The provider identifies the channel as RUADOFLOW (https://www.youtube.com/@RUADOFLOW). This fills the missing TRIZ listening link without inventing a URL or copying audio. All 17 selected releases now have listening destinations. The already published implementation was preserved; no competing branch was force-pushed.
