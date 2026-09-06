@@ -1,0 +1,308 @@
+[
+  {
+    "id": "yTs9CgrP-88",
+    "source": "https://i.ytimg.com/vi/yTs9CgrP-88/maxresdefault.jpg",
+    "sourceWidth": 1280,
+    "sourceHeight": 720,
+    "attempts": [
+      {
+        "variant": "maxresdefault",
+        "status": 200
+      }
+    ],
+    "output": {
+      "path": "assets/images/videos/yTs9CgrP-88.webp",
+      "width": 1280,
+      "height": 720,
+      "small": "assets/images/videos/yTs9CgrP-88-640.webp",
+      "smallWidth": 640
+    },
+    "sha256": "b56973047c08f23608cea2710938c8a6cf312f845435e2eb5c6c4d75a06e874a"
+  },
+  {
+    "id": "5nFmCqWsEYk",
+    "source": "https://i.ytimg.com/vi/5nFmCqWsEYk/maxresdefault.jpg",
+    "sourceWidth": 1280,
+    "sourceHeight": 720,
+    "attempts": [
+      {
+        "variant": "maxresdefault",
+        "status": 200
+      }
+    ],
+    "output": {
+      "path": "assets/images/videos/5nFmCqWsEYk.webp",
+      "width": 1280,
+      "height": 720,
+      "small": "assets/images/videos/5nFmCqWsEYk-640.webp",
+      "smallWidth": 640
+    },
+    "sha256": "aadb880295202da2f43ea405c14a8249b5f3d5ad80013f69520e33999bc2fb24"
+  },
+  {
+    "id": "W1M8L5p7c30",
+    "source": "https://i.ytimg.com/vi/W1M8L5p7c30/maxresdefault.jpg",
+    "sourceWidth": 1280,
+    "sourceHeight": 720,
+    "attempts": [
+      {
+        "variant": "maxresdefault",
+        "status": 200
+      }
+    ],
+    "output": {
+      "path": "assets/images/videos/W1M8L5p7c30.webp",
+      "width": 1280,
+      "height": 720,
+      "small": "assets/images/videos/W1M8L5p7c30-640.webp",
+      "smallWidth": 640
+    },
+    "sha256": "6f2b2d589cda26622c344e449d4f34e3b5fa92b6b38396dd36608e04497cd3a6"
+  },
+  {
+    "id": "ShHAApg2vIc",
+    "source": "https://i.ytimg.com/vi/ShHAApg2vIc/maxresdefault.jpg",
+    "sourceWidth": 1280,
+    "sourceHeight": 720,
+    "attempts": [
+      {
+        "variant": "maxresdefault",
+        "status": 200
+      }
+    ],
+    "output": {
+      "path": "assets/images/videos/ShHAApg2vIc.webp",
+      "width": 1280,
+      "height": 720,
+      "small": "assets/images/videos/ShHAApg2vIc-640.webp",
+      "smallWidth": 640
+    },
+    "sha256": "b11f26a6e772aa783d77ab30813ce091bf7c4c1ba807913d132cf2aaec9fd2f0"
+  },
+  {
+    "id": "3uDp52U8LaI",
+    "source": "https://i.ytimg.com/vi/3uDp52U8LaI/maxresdefault.jpg",
+    "sourceWidth": 1280,
+    "sourceHeight": 720,
+    "attempts": [
+      {
+        "variant": "maxresdefault",
+        "status": 200
+      }
+    ],
+    "output": {
+      "path": "assets/images/videos/3uDp52U8LaI.webp",
+      "width": 1280,
+      "height": 720,
+      "small": "assets/images/videos/3uDp52U8LaI-640.webp",
+      "smallWidth": 640
+    },
+    "sha256": "5a63c718ba50f7b6f114e4fd41bfde368dbdca0a6862dd5c47c0804f65aee7dc"
+  },
+  {
+    "id": "D2mxDysIDyw",
+    "source": "https://i.ytimg.com/vi/D2mxDysIDyw/maxresdefault.jpg",
+    "sourceWidth": 1280,
+    "sourceHeight": 720,
+    "attempts": [
+      {
+        "variant": "maxresdefault",
+        "status": 200
+      }
+    ],
+    "output": {
+      "path": "assets/images/videos/D2mxDysIDyw.webp",
+      "width": 1280,
+      "height": 720,
+      "small": "assets/images/videos/D2mxDysIDyw-640.webp",
+      "smallWidth": 640
+    },
+    "sha256": "6e6248b179e470e0176adb7a97b784f1ead4c6265d2bdde157be211b5f481861"
+  },
+  {
+    "id": "AE44Pg16LWY",
+    "source": "https://i.ytimg.com/vi/AE44Pg16LWY/mqdefault.jpg",
+    "sourceWidth": 320,
+    "sourceHeight": 180,
+    "attempts": [
+      {
+        "variant": "maxresdefault",
+        "status": 404
+      },
+      {
+        "variant": "hq720",
+        "status": 404
+      },
+      {
+        "variant": "mqdefault",
+        "status": 200
+      }
+    ],
+    "output": {
+      "path": "assets/images/videos/AE44Pg16LWY.webp",
+      "width": 320,
+      "height": 180
+    },
+    "sha256": "df276e59b127664687023aa63f9b73bd5e8ff09d597dafe0013c1b8fbf84f429"
+  },
+  {
+    "id": "h6E_3ftiIQg",
+    "source": "https://i.ytimg.com/vi/h6E_3ftiIQg/maxresdefault.jpg",
+    "sourceWidth": 1280,
+    "sourceHeight": 720,
+    "attempts": [
+      {
+        "variant": "maxresdefault",
+        "status": 200
+      }
+    ],
+    "output": {
+      "path": "assets/images/videos/h6E_3ftiIQg.webp",
+      "width": 1280,
+      "height": 720,
+      "small": "assets/images/videos/h6E_3ftiIQg-640.webp",
+      "smallWidth": 640
+    },
+    "sha256": "b732e1f115c360a346c099053f5f5456ba1111cf36be742f0b550151c3025d2c"
+  },
+  {
+    "id": "VcW_-D6iWYQ",
+    "source": "https://i.ytimg.com/vi/VcW_-D6iWYQ/maxresdefault.jpg",
+    "sourceWidth": 1280,
+    "sourceHeight": 720,
+    "attempts": [
+      {
+        "variant": "maxresdefault",
+        "status": 200
+      }
+    ],
+    "output": {
+      "path": "assets/images/videos/VcW_-D6iWYQ.webp",
+      "width": 1280,
+      "height": 720,
+      "small": "assets/images/videos/VcW_-D6iWYQ-640.webp",
+      "smallWidth": 640
+    },
+    "sha256": "fc947f996dca6ba4ee602acbdf60546fff21fc0586ee83f8973e3aea2d14bfd5"
+  },
+  {
+    "id": "Q9l6wqh_wnI",
+    "source": "https://i.ytimg.com/vi/Q9l6wqh_wnI/maxresdefault.jpg",
+    "sourceWidth": 1280,
+    "sourceHeight": 720,
+    "attempts": [
+      {
+        "variant": "maxresdefault",
+        "status": 200
+      }
+    ],
+    "output": {
+      "path": "assets/images/videos/Q9l6wqh_wnI.webp",
+      "width": 1280,
+      "height": 720,
+      "small": "assets/images/videos/Q9l6wqh_wnI-640.webp",
+      "smallWidth": 640
+    },
+    "sha256": "8e8fd87fc5d12d19c7f210bcbb6d0fa29e47bc28b9c026549e4bafc7b8c9dc19"
+  },
+  {
+    "id": "8RwGnTwzvgc",
+    "source": "https://i.ytimg.com/vi/8RwGnTwzvgc/maxresdefault.jpg",
+    "sourceWidth": 1280,
+    "sourceHeight": 720,
+    "attempts": [
+      {
+        "variant": "maxresdefault",
+        "status": 200
+      }
+    ],
+    "output": {
+      "path": "assets/images/videos/8RwGnTwzvgc.webp",
+      "width": 1280,
+      "height": 720,
+      "small": "assets/images/videos/8RwGnTwzvgc-640.webp",
+      "smallWidth": 640
+    },
+    "sha256": "3042190e743bcfa4a52691f81486accdeb3e7a25d5c2761ad3ca5ff50e2d1da5"
+  },
+  {
+    "id": "XY9zx6hhMug",
+    "source": "https://i.ytimg.com/vi/XY9zx6hhMug/maxresdefault.jpg",
+    "sourceWidth": 1280,
+    "sourceHeight": 720,
+    "attempts": [
+      {
+        "variant": "maxresdefault",
+        "status": 200
+      }
+    ],
+    "output": {
+      "path": "assets/images/videos/XY9zx6hhMug.webp",
+      "width": 1280,
+      "height": 720,
+      "small": "assets/images/videos/XY9zx6hhMug-640.webp",
+      "smallWidth": 640
+    },
+    "sha256": "2224d06be8dcb3b2a3cafdac5f3130588386a0c071a5e8cdff3c994c42e05c5d"
+  },
+  {
+    "id": "4eebJrp5FBc",
+    "source": "https://i.ytimg.com/vi/4eebJrp5FBc/maxresdefault.jpg",
+    "sourceWidth": 1280,
+    "sourceHeight": 720,
+    "attempts": [
+      {
+        "variant": "maxresdefault",
+        "status": 200
+      }
+    ],
+    "output": {
+      "path": "assets/images/videos/4eebJrp5FBc.webp",
+      "width": 1280,
+      "height": 720,
+      "small": "assets/images/videos/4eebJrp5FBc-640.webp",
+      "smallWidth": 640
+    },
+    "sha256": "7642468e04d698b8a41c9975de484353ec6acf8cdf757c59ea8505c5699f04a0"
+  },
+  {
+    "id": "t1nwuVbEc9Y",
+    "source": "https://i.ytimg.com/vi/t1nwuVbEc9Y/maxresdefault.jpg",
+    "sourceWidth": 1280,
+    "sourceHeight": 720,
+    "attempts": [
+      {
+        "variant": "maxresdefault",
+        "status": 200
+      }
+    ],
+    "output": {
+      "path": "assets/images/videos/t1nwuVbEc9Y.webp",
+      "width": 1280,
+      "height": 720,
+      "small": "assets/images/videos/t1nwuVbEc9Y-640.webp",
+      "smallWidth": 640
+    },
+    "sha256": "d23982f8a81d8f9858edf31c78782d242a33f9663c89b56a6a383ef90082935a"
+  },
+  {
+    "id": "kDln6f8bwuc",
+    "source": "https://i.ytimg.com/vi/kDln6f8bwuc/maxresdefault.jpg",
+    "sourceWidth": 1280,
+    "sourceHeight": 720,
+    "attempts": [
+      {
+        "variant": "maxresdefault",
+        "status": 200
+      }
+    ],
+    "output": {
+      "path": "assets/images/videos/kDln6f8bwuc.webp",
+      "width": 1280,
+      "height": 720,
+      "small": "assets/images/videos/kDln6f8bwuc-640.webp",
+      "smallWidth": 640
+    },
+    "sha256": "edf2eb29b7f7a1e9a2d9101ef9902c15cf06498394486f787810c0d6c69bdb4c"
+  }
+]

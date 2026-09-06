@@ -8,8 +8,10 @@
     "url": "https://www.youtube.com/watch?v=yTs9CgrP-88",
     "poster": {
       "path": "assets/images/videos/yTs9CgrP-88.webp",
-      "width": 480,
-      "height": 360
+      "width": 1280,
+      "height": 720,
+      "small": "assets/images/videos/yTs9CgrP-88-640.webp",
+      "smallWidth": 640
     }
   },
   {
@@ -21,8 +23,10 @@
     "url": "https://www.youtube.com/watch?v=5nFmCqWsEYk",
     "poster": {
       "path": "assets/images/videos/5nFmCqWsEYk.webp",
-      "width": 480,
-      "height": 360
+      "width": 1280,
+      "height": 720,
+      "small": "assets/images/videos/5nFmCqWsEYk-640.webp",
+      "smallWidth": 640
     }
   },
   {
@@ -34,8 +38,10 @@
     "url": "https://www.youtube.com/watch?v=W1M8L5p7c30",
     "poster": {
       "path": "assets/images/videos/W1M8L5p7c30.webp",
-      "width": 480,
-      "height": 360
+      "width": 1280,
+      "height": 720,
+      "small": "assets/images/videos/W1M8L5p7c30-640.webp",
+      "smallWidth": 640
     }
   },
   {
@@ -47,8 +53,10 @@
     "url": "https://www.youtube.com/watch?v=ShHAApg2vIc",
     "poster": {
       "path": "assets/images/videos/ShHAApg2vIc.webp",
-      "width": 480,
-      "height": 360
+      "width": 1280,
+      "height": 720,
+      "small": "assets/images/videos/ShHAApg2vIc-640.webp",
+      "smallWidth": 640
     }
   },
   {
@@ -60,8 +68,10 @@
     "url": "https://www.youtube.com/watch?v=3uDp52U8LaI",
     "poster": {
       "path": "assets/images/videos/3uDp52U8LaI.webp",
-      "width": 480,
-      "height": 360
+      "width": 1280,
+      "height": 720,
+      "small": "assets/images/videos/3uDp52U8LaI-640.webp",
+      "smallWidth": 640
     }
   },
   {
@@ -73,8 +83,10 @@
     "url": "https://www.youtube.com/watch?v=D2mxDysIDyw",
     "poster": {
       "path": "assets/images/videos/D2mxDysIDyw.webp",
-      "width": 480,
-      "height": 360
+      "width": 1280,
+      "height": 720,
+      "small": "assets/images/videos/D2mxDysIDyw-640.webp",
+      "smallWidth": 640
     }
   },
   {
@@ -86,8 +98,8 @@
     "url": "https://www.youtube.com/watch?v=AE44Pg16LWY",
     "poster": {
       "path": "assets/images/videos/AE44Pg16LWY.webp",
-      "width": 480,
-      "height": 360
+      "width": 320,
+      "height": 180
     }
   },
   {
@@ -99,8 +111,10 @@
     "url": "https://www.youtube.com/watch?v=h6E_3ftiIQg",
     "poster": {
       "path": "assets/images/videos/h6E_3ftiIQg.webp",
-      "width": 480,
-      "height": 360
+      "width": 1280,
+      "height": 720,
+      "small": "assets/images/videos/h6E_3ftiIQg-640.webp",
+      "smallWidth": 640
     }
   },
   {
@@ -112,8 +126,10 @@
     "url": "https://www.youtube.com/watch?v=VcW_-D6iWYQ",
     "poster": {
       "path": "assets/images/videos/VcW_-D6iWYQ.webp",
-      "width": 480,
-      "height": 360
+      "width": 1280,
+      "height": 720,
+      "small": "assets/images/videos/VcW_-D6iWYQ-640.webp",
+      "smallWidth": 640
     }
   },
   {
@@ -125,8 +141,10 @@
     "url": "https://www.youtube.com/watch?v=Q9l6wqh_wnI",
     "poster": {
       "path": "assets/images/videos/Q9l6wqh_wnI.webp",
-      "width": 480,
-      "height": 360
+      "width": 1280,
+      "height": 720,
+      "small": "assets/images/videos/Q9l6wqh_wnI-640.webp",
+      "smallWidth": 640
     }
   },
   {
@@ -138,8 +156,10 @@
     "url": "https://www.youtube.com/watch?v=8RwGnTwzvgc",
     "poster": {
       "path": "assets/images/videos/8RwGnTwzvgc.webp",
-      "width": 480,
-      "height": 360
+      "width": 1280,
+      "height": 720,
+      "small": "assets/images/videos/8RwGnTwzvgc-640.webp",
+      "smallWidth": 640
     }
   },
   {
@@ -151,8 +171,10 @@
     "url": "https://www.youtube.com/watch?v=XY9zx6hhMug",
     "poster": {
       "path": "assets/images/videos/XY9zx6hhMug.webp",
-      "width": 480,
-      "height": 360
+      "width": 1280,
+      "height": 720,
+      "small": "assets/images/videos/XY9zx6hhMug-640.webp",
+      "smallWidth": 640
     }
   },
   {
@@ -164,8 +186,10 @@
     "url": "https://www.youtube.com/watch?v=4eebJrp5FBc",
     "poster": {
       "path": "assets/images/videos/4eebJrp5FBc.webp",
-      "width": 480,
-      "height": 360
+      "width": 1280,
+      "height": 720,
+      "small": "assets/images/videos/4eebJrp5FBc-640.webp",
+      "smallWidth": 640
     }
   },
   {
@@ -177,8 +201,10 @@
     "url": "https://www.youtube.com/watch?v=t1nwuVbEc9Y",
     "poster": {
       "path": "assets/images/videos/t1nwuVbEc9Y.webp",
-      "width": 480,
-      "height": 360
+      "width": 1280,
+      "height": 720,
+      "small": "assets/images/videos/t1nwuVbEc9Y-640.webp",
+      "smallWidth": 640
     }
   },
   {
@@ -190,8 +216,10 @@
     "url": "https://www.youtube.com/watch?v=kDln6f8bwuc",
     "poster": {
       "path": "assets/images/videos/kDln6f8bwuc.webp",
-      "width": 480,
-      "height": 360
+      "width": 1280,
+      "height": 720,
+      "small": "assets/images/videos/kDln6f8bwuc-640.webp",
+      "smallWidth": 640
     }
   }
 ]

@@ -1,28 +1,24 @@
 # A.X.L. — music portfolio
 
-Independent static artist portfolio. English first, Portuguese at `pt-br/`. Black editorial interface with Inter/Archivo typography verified from SSSOM's source, Apple-like interaction audit and Müller grid. No SSSOM application or third-party private skills are bundled.
+Independent static artist portfolio. English first, Portuguese at `pt-br/`. Black editorial interface with Inter/Archivo typography verified from SSSOM's source, Apple-like interactions and Müller grid. No private SSSOM application or third-party skills are redistributed.
 
 ## Content
-17 selected releases: albums, compilations, mixtape, singles and EPs. 15 Spotify release links with track listings; Curta Metragem links to the supplied YouTube recording. TRIZ uses the supplied 2016 cover and Leonardo Irian collaboration; a verified listening link is still pending. Music videos: 12 (three highlighted) and 3 live performances.
-Dates follow the supplied text, including Tudo Mudou 2022 regardless of the 2021 cover filename. The SSSOM profile image is used, but its explicitly fictitious biography is not. Biography sources and limitations: [docs/design.md](docs/design.md).
+17 selected releases: albums, compilations, mixtape, singles and EPs. All have listening destinations: 15 Spotify releases with track listings, Curta Metragem and TRIZ on YouTube. There are 12 music videos (three highlighted) and three live performances. More clips starts expanded and can be closed. Video players are loaded only after a click.
+Original years follow the supplied document, including Tudo Mudou 2022 despite the cover filename. The requested SSSOM portrait is retained, not its fictitious biography. Contact: ruadoflow@gmail.com. Source references include the Rolling Stone link supplied by the artist.
 
 ## Development
-Requires Node 22+; the static build has no install step or package dependency.
-
+Node 22+; no install step or runtime package dependency for the static build.
 ```sh
 npm run verify
-npm run preview
 npm run design:apple
+npm run design:editorial
+npm run preview
 npm run build:domain
 ```
+Initial media import and explicit poster refresh require a separately installed sharp module through SHARP_MODULE. Originals, audio, credentials, font binaries and raw research are not published. Audits use a disposable browser, not the user's signed-in session.
 
-Initial media import is an explicit local utility requiring a separately installed sharp module through SHARP_MODULE; it refuses to overwrite an existing catalogue. No original images, audio, tokens, font binaries or raw research belong in the repository. The browser audit uses a disposable local browser profile, not the user's personal browser session.
-
-## Hosting
+## Hosting and discovery
 Preview: https://contato675.github.io/axl-portfolio/
-Requested final hostname: https://axl.sssom.com/
-
-GitHub Pages serves only the generated branch `pages-preview`; source is in feature branch `feat/axl-portfolio`, reviewed through a PR without self-merge. Run `npm run publish:preview` only after tests and commit/push. The preview retains noindex. Custom-domain output is generated separately in `dist-domain/`, including CNAME and root-relative assets, but is not automatically deployed into an unresolved hostname. See [docs/hosting.md](docs/hosting.md).
-
-## Rights and limits
-Music, cover artwork and photographs retain their respective rights; publishing this repository grants no blanket licence to reuse them. Google Fonts are requested through the provider's CSS service, not redistributed in the repository. The English biography awaits artist review. No PDF, user-account system, payment flow, Spotify audio mirror, full accessibility certification or field-performance claim is included.
+Target: https://axl.sssom.com/ — not claimed active before DNS and HTTPS validation.
+Source: feat/axl-portfolio; deployment: pages-preview; PR remains without self-merge. `npm run publish:preview` requires a clean pushed feature branch and noindex output. `node scripts/verify-published.mjs` checks exact live hashes and editorial requirements.
+HTML, Markdown, llms.txt/full and JSON-LD use the same records. Root sitemap generation is opt-in with explicit sign-off; the preview remains noindex with an empty sitemap. A robots.txt inside the GitHub project path is not the policy of the host root. See [discovery and editorial checklist](docs/discovery-and-editorial.md) and [hosting](docs/hosting.md).

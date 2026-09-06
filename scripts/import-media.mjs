@@ -3,6 +3,7 @@ import fs from 'node:fs/promises';
 import path from 'node:path';
 import {fileURLToPath,pathToFileURL} from 'node:url';
 import {createHash} from 'node:crypto';
+import {fetchVideoPoster} from './video-posters.mjs';
 const root=fileURLToPath(new URL('../',import.meta.url)),source=process.argv[2];
 if(!source||!process.env.SHARP_MODULE)throw new Error('Pass source folder and SHARP_MODULE');
 const sharp=(await import(pathToFileURL(process.env.SHARP_MODULE))).default;sharp.concurrency(2);
@@ -53,7 +54,7 @@ for(const [id,title,year,type,spotifyId,match,artists] of spec){
 }
 const clips=[['yTs9CgrP-88','Herança Verde Escuro',true],['5nFmCqWsEYk','Nada De Novo',true],['W1M8L5p7c30','O Mundo Em Mim, Se Encontrar',true],['ShHAApg2vIc','É Nóiz!',false],['3uDp52U8LaI','Não, Mano! REMIX',false],['D2mxDysIDyw','Feito Com A Gente',false],['AE44Pg16LWY','Será Doce Morrer',false],['h6E_3ftiIQg','Ouro No Sangue',false],['VcW_-D6iWYQ','Marimbondo',false],['Q9l6wqh_wnI','Mamangava',false],['8RwGnTwzvgc','O Inimigo',false],['XY9zx6hhMug','Novo$ A$$unto$ da Família',false]];
 const live=[['4eebJrp5FBc','RADIORDF 0001 · Ouro no Sangue e Eras Freestyle'],['t1nwuVbEc9Y','Ouro No Sangue · RUADOFLOW, SJC'],['kDln6f8bwuc','Herança Verde Escuro · RUADOFLOW 10 Anos']];
-for(const [kind,items] of [['clip',clips],['live',live]])for(const [id,title,featured=false] of items){if(!text.includes(id))throw new Error('Video not supplied');const m=meta(id);let bytes=await bytesAt(m.metadata.thumbnail_url);videos.push({id,title,kind,featured,sourceTitle:m.metadata.title,url:m.url,poster:await image(bytes,'videos/'+id,m.metadata.thumbnail_url)});}
+for(const [kind,items] of [['clip',clips],['live',live]])for(const [id,title,featured=false] of items){if(!text.includes(id))throw new Error('Video not supplied');const m=meta(id),sourcePoster=await fetchVideoPoster(id,sharp);videos.push({id,title,kind,featured,sourceTitle:m.metadata.title,url:m.url,poster:await image(sourcePoster.bytes,'videos/'+id,sourcePoster.url)});}
 const profile=JSON.parse(await fs.readFile(path.join(root,'artifacts/sssom-public-profile.json'),'utf8'));if(profile.length!==1||profile[0].name!=='A.X.L.')throw new Error('Ambiguous profile');
 const portrait=await image(await bytesAt(profile[0].image_url),'profile/axl',profile[0].image_url);
 await fs.writeFile(path.join(root,'site/content/releases.json'),JSON.stringify(releases,null,2)+'\n');await fs.writeFile(path.join(root,'site/content/videos.json'),JSON.stringify(videos,null,2)+'\n');await fs.writeFile(path.join(root,'site/content/portrait.json'),JSON.stringify({image:portrait,source:profile[0].image_url,profileUrl:'https://sssom.com/artists/'+profile[0].id},null,2)+'\n');

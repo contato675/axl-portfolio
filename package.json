@@ -3,7 +3,9 @@
   "version": "1.0.0",
   "private": true,
   "type": "module",
-  "engines": {"node": ">=22"},
+  "engines": {
+    "node": ">=22"
+  },
   "scripts": {
     "build": "node scripts/build.mjs",
     "build:domain": "node scripts/build.mjs --domain",
@@ -11,6 +13,7 @@
     "verify": "npm test && npm run build && npm run build:domain",
     "preview": "node scripts/serve.mjs",
     "design:apple": "node scripts/audit.mjs",
-    "publish:preview": "node scripts/publish.mjs --confirm-preview"
+    "publish:preview": "node scripts/publish.mjs --confirm-preview",
+    "design:editorial": "node scripts/audit-editorial.mjs"
   }
 }

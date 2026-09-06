@@ -6,7 +6,7 @@ Apple-like contracts read: docs/design-system/STUDIO_KIT_PLATFORMS.md; docs/plan
 
 ## Components and states
 Desktop: restrained navigation + English/Português. Mobile: a Menu disclosure enhanced into a modal drawer with navigation and languages. Hero: Archivo artist name, Inter introduction, SSSOM portrait, listening and biography anchors. Music: separate album/mixtape/compilation and single/EP collections; release card opens details and has a genuine permanent URL. Featured clips use the three choices in the text; all other supplied clips and all three live videos remain available. Videos load only after a click.
-Each page remains readable without JS. Dialogs have focus management, Escape, Back/Forward and reduced motion. No landscape image is forced into a square crop. The primary contact is RUADOFLOW's publicly listed email.
+Each page remains readable without JS. Dialogs have focus management, Escape, Back/Forward and reduced motion. No landscape image is forced into a square crop. The primary contact is ruadoflow@gmail.com, as explicitly requested by the artist.
 
 ## Evidence and data priority
 1. User: name, 1990 birth, Jacareí and RUADOFLOW founding role.
@@ -29,3 +29,6 @@ Artwork selection supplied by the artist; English biography remains an editorial
 
 ## Listening-link completion
 The full TRIZ EP linked by the RND article was found and verified via YouTube oEmbed: https://www.youtube.com/watch?v=h1MeguEF90E — TRIZ, Enquanto Eu Respirar SOU Hinario. Alem da Reza, complete 2016. The provider identifies the channel as RUADOFLOW (https://www.youtube.com/@RUADOFLOW). This fills the missing TRIZ listening link without inventing a URL or copying audio. All 17 selected releases now have listening destinations. The already published implementation was preserved; no competing branch was force-pushed.
+
+## Editorial update
+RUADOFLOW is explicitly a collective and A.X.L. a Brazilian rapper/songwriter. The badge is limited to the artistic roles. The footer no longer links to SSSOM; only the requested portrait provenance remains in internal source data. The Rolling Stone reference supplied by the artist is linked from the same source list used by HTML, Markdown and JSON-LD. Retrieval of the article returned HTTP 403: no unseen text, publication date or claim was inferred from it.

@@ -4,7 +4,7 @@ Work only in this independent portfolio. Never modify SSSOM, Renata, Aplanta, th
 
 ## Editorial truth
 The supplied Links AXL.txt is authoritative for release years and selected links. Cover filenames may disagree. Everything Changed / Tudo Mudou is 2022, not 2021. Preserve original Portuguese release titles in both locales and distinguish Spotify service titles and collaborative credits. TRIZ is an additional supplied cover from 2016. Never invent a missing listening link, date precision, track count, award, audience statistic or transcript.
-Use only the image from the public SSSOM profile: its biography explicitly contains fictitious data and must not be reused. Birth year 1990 and full name come from the user. Raw research belongs only in ignored artifacts. Contact is the public RUADOFLOW email, not a guessed personal address.
+Use only the image from the public SSSOM profile: its biography explicitly contains fictitious data and must not be reused. Birth year 1990 and full name come from the user. Raw research belongs only in ignored artifacts. Contact is ruadoflow@gmail.com, explicitly supplied by the artist; do not infer a different address.
 
 ## Design: Apple-like + actual SSSOM typography
 Read docs/design.md before UI changes. Black editorial surface, Inter body, Archivo display (width 110), 12/8/4 Müller grid and 8px spacing rhythm. No Hallmark, forced image cropping, decorative glow, noisy dashboard or visible debug controls. Use webfont CSS from Google Fonts; no font binaries distributed.
