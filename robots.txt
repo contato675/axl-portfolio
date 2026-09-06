@@ -1,0 +1,3 @@
+# Preview: noindex in HTML; this file is effective only at the origin root.
+User-agent: *
+Disallow: /axl-portfolio/

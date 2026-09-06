@@ -1,0 +1,33 @@
+# Barba Negra vs Orelha Peluda
+
+https://contato675.github.io/axl-portfolio/pt-br/releases/barba-negra-2024/
+
+Ano: 2024
+
+Álbum · Barba Negra · A.X.L.
+
+![Barba Negra vs Orelha Peluda](https://contato675.github.io/axl-portfolio/assets/images/covers/barba-negra-2024.webp)
+
+[Ouvir](https://open.spotify.com/album/5bnD4SLSWIQVdVk94QtghA)
+
+Nome no Spotify: BARBA NEGRA vs AXL - O ROUBO DO LOOP FUNDAMENTAL
+
+1. [LOOP FUNDAMENTAL (INTRO)](https://open.spotify.com/track/2A7b29TMtvWD9P3eZx06KD) — Barba Negra, A.X.L. — 0:31
+2. [TÁBUA DE ESMERALDA](https://open.spotify.com/track/62SfCjzKMZxNsNGYxgb5Hp) — Barba Negra, A.X.L. — 1:26
+3. [CINCO DA MANHÃ](https://open.spotify.com/track/23Y6D43TTvAfWcYUYottzo) — Barba Negra, A.X.L. — 1:44
+4. [ESPADA DO ESPÍRITO](https://open.spotify.com/track/0kBkGmPu8JXvgmNvE7DssJ) — Barba Negra, A.X.L. — 1:20
+5. [MEDALHA](https://open.spotify.com/track/7ueUG67T5Rg0KH9bzElKIJ) — Barba Negra, A.X.L. — 1:33
+6. [DOIS PALITO](https://open.spotify.com/track/1QjptCiPpoZ7AoGtL1wfym) — Barba Negra, A.X.L. — 1:16
+7. [FALA BAIXINHO](https://open.spotify.com/track/2TK5ox4IQY7WfOVeQHUTyz) — Barba Negra, A.X.L. — 1:00
+8. [PARALELEPÍPEDO](https://open.spotify.com/track/1HqTlaQCX55GBr2kJ33Edy) — Barba Negra, A.X.L. — 1:25
+9. [ROTTWEILERS](https://open.spotify.com/track/2o9esGLf5ecA8Eixg0S1oJ) — Barba Negra, A.X.L. — 1:30
+10. [O RATO QUE MORA EMBAIXO DA CASINHA DO CACHORRO](https://open.spotify.com/track/7LzPWoKrSkgBmA71GbYc07) — Barba Negra, A.X.L. — 1:35
+11. [BOROGODÓ](https://open.spotify.com/track/4D9zSyROcM847I0pfLn2Nz) — Barba Negra, A.X.L. — 1:09
+12. [A HISTÓRIA DE ORELHA PELUDA (OUTRO)](https://open.spotify.com/track/0lgrWVyZqmUa7c63YioDCR) — Barba Negra, A.X.L. — 2:17
+
+
+## Contato
+
+contato@ruadoflow.com
+
+As obras e músicas pertencem aos seus respectivos titulares.

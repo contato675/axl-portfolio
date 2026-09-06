@@ -1,0 +1,1937 @@
+{
+  "@context": "https://schema.org",
+  "@graph": [
+    {
+      "@type": "Person",
+      "@id": "https://contato675.github.io/axl-portfolio/#artist",
+      "name": "A.X.L.",
+      "alternateName": "Axel Antonio Alberigi Diniz",
+      "description": "A.X.L. é Axel Antonio Alberigi Diniz, rapper, compositor e fundador da RUADOFLOW. Nascido em 1990 em Jacareí, interior de São Paulo, construiu sua trajetória a partir do rap do Vale do Paraíba, articulando criação musical independente, produção audiovisual e encontros culturais.\n\nAtivo desde 2004, quando integrou o grupo Incognitivos, iniciou sua caminhada solo em 2008, ano de criação da RUADOFLOW e do EP Curta Metragem. A mixtape Caos Pessoal (2010) e o álbum Quando É Preciso Voltar (2011), com Skeeter, antecederam A Vida de Axel Alberigi: Antes de Tudo (2014), trabalho marcado pela escrita autobiográfica, pela memória familiar e pela busca de transformação pessoal. Sua circulação incluiu o programa Manos e Minas, da TV Cultura.\n\nEssa narrativa se desdobra em Tudo de Novo (2020) e Tudo Mudou (2022), colocando a própria vida em diálogo com a passagem do tempo. Em paralelo, sua discografia reúne o projeto TRIZ com Leonardo Irian, o EP com pai guga, as coletâneas RDF$$$ e a colaboração com Barba Negra em 2024. O remix de Não, Mano! aproxima sua voz das de Flora Matos e MV Bill.\n\nEntre discos, videoclipes e apresentações ao vivo, A.X.L. mantém uma prática artística autoral ligada à experiência coletiva. Na RUADOFLOW, a música também se torna espaço de encontro, promovendo eventos e conexões entre artistas e públicos.",
+      "url": "https://contato675.github.io/axl-portfolio/pt-br/",
+      "image": "https://contato675.github.io/axl-portfolio/assets/images/profile/axl.webp",
+      "email": "contato@ruadoflow.com",
+      "sameAs": [
+        "https://sssom.com/artists/a2337c6e-68a4-47b8-bf72-6403a552d552"
+      ]
+    },
+    {
+      "@type": "MusicAlbum",
+      "@id": "https://contato675.github.io/axl-portfolio/pt-br/releases/barba-negra-2024/",
+      "name": "Barba Negra vs Orelha Peluda",
+      "datePublished": "2024",
+      "albumReleaseType": "https://schema.org/AlbumRelease",
+      "byArtist": [
+        {
+          "@type": "Person",
+          "name": "Barba Negra"
+        },
+        {
+          "@type": "Person",
+          "name": "A.X.L."
+        }
+      ],
+      "image": "https://contato675.github.io/axl-portfolio/assets/images/covers/barba-negra-2024.webp",
+      "url": "https://contato675.github.io/axl-portfolio/pt-br/releases/barba-negra-2024/",
+      "sameAs": "https://open.spotify.com/album/5bnD4SLSWIQVdVk94QtghA",
+      "numTracks": 12,
+      "track": [
+        {
+          "@type": "MusicRecording",
+          "name": "LOOP FUNDAMENTAL (INTRO)",
+          "url": "https://open.spotify.com/track/2A7b29TMtvWD9P3eZx06KD",
+          "byArtist": [
+            {
+              "@type": "Person",
+              "name": "Barba Negra"
+            },
+            {
+              "@type": "Person",
+              "name": "A.X.L."
+            }
+          ],
+          "duration": "PT31S"
+        },
+        {
+          "@type": "MusicRecording",
+          "name": "TÁBUA DE ESMERALDA",
+          "url": "https://open.spotify.com/track/62SfCjzKMZxNsNGYxgb5Hp",
+          "byArtist": [
+            {
+              "@type": "Person",
+              "name": "Barba Negra"
+            },
+            {
+              "@type": "Person",
+              "name": "A.X.L."
+            }
+          ],
+          "duration": "PT86S"
+        },
+        {
+          "@type": "MusicRecording",
+          "name": "CINCO DA MANHÃ",
+          "url": "https://open.spotify.com/track/23Y6D43TTvAfWcYUYottzo",
+          "byArtist": [
+            {
+              "@type": "Person",
+              "name": "Barba Negra"
+            },
+            {
+              "@type": "Person",
+              "name": "A.X.L."
+            }
+          ],
+          "duration": "PT104S"
+        },
+        {
+          "@type": "MusicRecording",
+          "name": "ESPADA DO ESPÍRITO",
+          "url": "https://open.spotify.com/track/0kBkGmPu8JXvgmNvE7DssJ",
+          "byArtist": [
+            {
+              "@type": "Person",
+              "name": "Barba Negra"
+            },
+            {
+              "@type": "Person",
+              "name": "A.X.L."
+            }
+          ],
+          "duration": "PT80S"
+        },
+        {
+          "@type": "MusicRecording",
+          "name": "MEDALHA",
+          "url": "https://open.spotify.com/track/7ueUG67T5Rg0KH9bzElKIJ",
+          "byArtist": [
+            {
+              "@type": "Person",
+              "name": "Barba Negra"
+            },
+            {
+              "@type": "Person",
+              "name": "A.X.L."
+            }
+          ],
+          "duration": "PT93S"
+        },
+        {
+          "@type": "MusicRecording",
+          "name": "DOIS PALITO",
+          "url": "https://open.spotify.com/track/1QjptCiPpoZ7AoGtL1wfym",
+          "byArtist": [
+            {
+              "@type": "Person",
+              "name": "Barba Negra"
+            },
+            {
+              "@type": "Person",
+              "name": "A.X.L."
+            }
+          ],
+          "duration": "PT76S"
+        },
+        {
+          "@type": "MusicRecording",
+          "name": "FALA BAIXINHO",
+          "url": "https://open.spotify.com/track/2TK5ox4IQY7WfOVeQHUTyz",
+          "byArtist": [
+            {
+              "@type": "Person",
+              "name": "Barba Negra"
+            },
+            {
+              "@type": "Person",
+              "name": "A.X.L."
+            }
+          ],
+          "duration": "PT60S"
+        },
+        {
+          "@type": "MusicRecording",
+          "name": "PARALELEPÍPEDO",
+          "url": "https://open.spotify.com/track/1HqTlaQCX55GBr2kJ33Edy",
+          "byArtist": [
+            {
+              "@type": "Person",
+              "name": "Barba Negra"
+            },
+            {
+              "@type": "Person",
+              "name": "A.X.L."
+            }
+          ],
+          "duration": "PT85S"
+        },
+        {
+          "@type": "MusicRecording",
+          "name": "ROTTWEILERS",
+          "url": "https://open.spotify.com/track/2o9esGLf5ecA8Eixg0S1oJ",
+          "byArtist": [
+            {
+              "@type": "Person",
+              "name": "Barba Negra"
+            },
+            {
+              "@type": "Person",
+              "name": "A.X.L."
+            }
+          ],
+          "duration": "PT90S"
+        },
+        {
+          "@type": "MusicRecording",
+          "name": "O RATO QUE MORA EMBAIXO DA CASINHA DO CACHORRO",
+          "url": "https://open.spotify.com/track/7LzPWoKrSkgBmA71GbYc07",
+          "byArtist": [
+            {
+              "@type": "Person",
+              "name": "Barba Negra"
+            },
+            {
+              "@type": "Person",
+              "name": "A.X.L."
+            }
+          ],
+          "duration": "PT95S"
+        },
+        {
+          "@type": "MusicRecording",
+          "name": "BOROGODÓ",
+          "url": "https://open.spotify.com/track/4D9zSyROcM847I0pfLn2Nz",
+          "byArtist": [
+            {
+              "@type": "Person",
+              "name": "Barba Negra"
+            },
+            {
+              "@type": "Person",
+              "name": "A.X.L."
+            }
+          ],
+          "duration": "PT69S"
+        },
+        {
+          "@type": "MusicRecording",
+          "name": "A HISTÓRIA DE ORELHA PELUDA (OUTRO)",
+          "url": "https://open.spotify.com/track/0lgrWVyZqmUa7c63YioDCR",
+          "byArtist": [
+            {
+              "@type": "Person",
+              "name": "Barba Negra"
+            },
+            {
+              "@type": "Person",
+              "name": "A.X.L."
+            }
+          ],
+          "duration": "PT137S"
+        }
+      ]
+    },
+    {
+      "@type": "MusicAlbum",
+      "@id": "https://contato675.github.io/axl-portfolio/pt-br/releases/tudo-mudou-2022/",
+      "name": "A Vida de Axel Alberigi, parte 2 Vol. 2: Tudo Mudou",
+      "datePublished": "2022",
+      "albumReleaseType": "https://schema.org/AlbumRelease",
+      "byArtist": [
+        {
+          "@type": "Person",
+          "name": "A.X.L."
+        }
+      ],
+      "image": "https://contato675.github.io/axl-portfolio/assets/images/covers/tudo-mudou-2022.webp",
+      "url": "https://contato675.github.io/axl-portfolio/pt-br/releases/tudo-mudou-2022/",
+      "sameAs": "https://open.spotify.com/album/4aCYzqIrfiJcljWKL0xOhF",
+      "numTracks": 9,
+      "track": [
+        {
+          "@type": "MusicRecording",
+          "name": "Vi Você Nascer Livre",
+          "url": "https://open.spotify.com/track/6SQIP0kEejAh2l1hDLNmQx",
+          "byArtist": [
+            {
+              "@type": "Person",
+              "name": "A.X.L."
+            }
+          ],
+          "duration": "PT243S"
+        },
+        {
+          "@type": "MusicRecording",
+          "name": "deixadeuscuidardotempo",
+          "url": "https://open.spotify.com/track/263HrogNYXjdzcmGLiRijX",
+          "byArtist": [
+            {
+              "@type": "Person",
+              "name": "A.X.L."
+            }
+          ],
+          "duration": "PT273S"
+        },
+        {
+          "@type": "MusicRecording",
+          "name": "VELHA CASA",
+          "url": "https://open.spotify.com/track/3kkbL9nq8RJcoZe5ov3NLV",
+          "byArtist": [
+            {
+              "@type": "Person",
+              "name": "A.X.L."
+            }
+          ],
+          "duration": "PT453S"
+        },
+        {
+          "@type": "MusicRecording",
+          "name": "Novos A$$unto$ da Família",
+          "url": "https://open.spotify.com/track/1YMGNIxDDGv5fEbfdyYmfi",
+          "byArtist": [
+            {
+              "@type": "Person",
+              "name": "A.X.L."
+            }
+          ],
+          "duration": "PT280S"
+        },
+        {
+          "@type": "MusicRecording",
+          "name": "O Mundo Em Mim, Se Encontrar 2",
+          "url": "https://open.spotify.com/track/0rLzwfeqCHhk6XdJ5zG9Sg",
+          "byArtist": [
+            {
+              "@type": "Person",
+              "name": "A.X.L."
+            }
+          ],
+          "duration": "PT272S"
+        },
+        {
+          "@type": "MusicRecording",
+          "name": "Eu & Minha Mina",
+          "url": "https://open.spotify.com/track/06oZTRBWtx1Fw76u0YvzcI",
+          "byArtist": [
+            {
+              "@type": "Person",
+              "name": "A.X.L."
+            }
+          ],
+          "duration": "PT195S"
+        },
+        {
+          "@type": "MusicRecording",
+          "name": "ALGODÃO",
+          "url": "https://open.spotify.com/track/7evHn5M4AKdeQc3JDDdNuK",
+          "byArtist": [
+            {
+              "@type": "Person",
+              "name": "A.X.L."
+            }
+          ],
+          "duration": "PT151S"
+        },
+        {
+          "@type": "MusicRecording",
+          "name": "Naviosss",
+          "url": "https://open.spotify.com/track/2EpkrrPM8RT5oP7bjDSA1i",
+          "byArtist": [
+            {
+              "@type": "Person",
+              "name": "A.X.L."
+            }
+          ],
+          "duration": "PT267S"
+        },
+        {
+          "@type": "MusicRecording",
+          "name": "Estrada da Vida",
+          "url": "https://open.spotify.com/track/3XG3QJvIwD6uQYNc7y3HeQ",
+          "byArtist": [
+            {
+              "@type": "Person",
+              "name": "A.X.L."
+            }
+          ],
+          "duration": "PT286S"
+        }
+      ]
+    },
+    {
+      "@type": "MusicAlbum",
+      "@id": "https://contato675.github.io/axl-portfolio/pt-br/releases/rdf-vol-2-2021/",
+      "name": "RDF$$$ Vol. 2: O Vento Varre a Terra",
+      "datePublished": "2021",
+      "albumReleaseType": "https://schema.org/AlbumRelease",
+      "byArtist": [
+        {
+          "@type": "MusicGroup",
+          "name": "RDF$$$"
+        },
+        {
+          "@type": "Person",
+          "name": "A.X.L."
+        },
+        {
+          "@type": "MusicGroup",
+          "name": "Câmara de Ecos"
+        }
+      ],
+      "image": "https://contato675.github.io/axl-portfolio/assets/images/covers/rdf-vol-2-2021.webp",
+      "url": "https://contato675.github.io/axl-portfolio/pt-br/releases/rdf-vol-2-2021/",
+      "albumProductionType": "https://schema.org/CompilationAlbum",
+      "sameAs": "https://open.spotify.com/album/42f9ugznRhzngOc7WxoB1I",
+      "numTracks": 10,
+      "track": [
+        {
+          "@type": "MusicRecording",
+          "name": "Hohoho",
+          "url": "https://open.spotify.com/track/7taAfXSQayGUy45SF5KtJL",
+          "byArtist": [
+            {
+              "@type": "MusicGroup",
+              "name": "RDF$$$"
+            },
+            {
+              "@type": "Person",
+              "name": "A.X.L."
+            },
+            {
+              "@type": "MusicGroup",
+              "name": "Câmara de Ecos"
+            }
+          ],
+          "duration": "PT241S"
+        },
+        {
+          "@type": "MusicRecording",
+          "name": "Liberdade",
+          "url": "https://open.spotify.com/track/70G0imd62tWJ5GlmPdyMpv",
+          "byArtist": [
+            {
+              "@type": "MusicGroup",
+              "name": "RDF$$$"
+            },
+            {
+              "@type": "Person",
+              "name": "A.X.L."
+            },
+            {
+              "@type": "MusicGroup",
+              "name": "Câmara de Ecos"
+            }
+          ],
+          "duration": "PT239S"
+        },
+        {
+          "@type": "MusicRecording",
+          "name": "Samba da Boa Nova",
+          "url": "https://open.spotify.com/track/7FeDMXJvzDvyTDKgDHVpXl",
+          "byArtist": [
+            {
+              "@type": "MusicGroup",
+              "name": "RDF$$$"
+            },
+            {
+              "@type": "Person",
+              "name": "A.X.L."
+            },
+            {
+              "@type": "MusicGroup",
+              "name": "Câmara de Ecos"
+            }
+          ],
+          "duration": "PT161S"
+        },
+        {
+          "@type": "MusicRecording",
+          "name": "Antes do Show Interlúdio",
+          "url": "https://open.spotify.com/track/6vxKc2Ux6yfA6ErhgLBp4i",
+          "byArtist": [
+            {
+              "@type": "MusicGroup",
+              "name": "RDF$$$"
+            },
+            {
+              "@type": "MusicGroup",
+              "name": "Câmara de Ecos"
+            }
+          ],
+          "duration": "PT93S"
+        },
+        {
+          "@type": "MusicRecording",
+          "name": "Baile Rdf",
+          "url": "https://open.spotify.com/track/3m5I1mXGwAJg8zq1ehmXnK",
+          "byArtist": [
+            {
+              "@type": "MusicGroup",
+              "name": "RDF$$$"
+            },
+            {
+              "@type": "MusicGroup",
+              "name": "Câmara de Ecos"
+            },
+            {
+              "@type": "Person",
+              "name": "A.X.L."
+            }
+          ],
+          "duration": "PT161S"
+        },
+        {
+          "@type": "MusicRecording",
+          "name": "Samba 2",
+          "url": "https://open.spotify.com/track/4hq3uvJP9ud3R5v4QeFrki",
+          "byArtist": [
+            {
+              "@type": "MusicGroup",
+              "name": "RDF$$$"
+            },
+            {
+              "@type": "Person",
+              "name": "A.X.L."
+            },
+            {
+              "@type": "MusicGroup",
+              "name": "Câmara de Ecos"
+            }
+          ],
+          "duration": "PT128S"
+        },
+        {
+          "@type": "MusicRecording",
+          "name": "Faixa 02",
+          "url": "https://open.spotify.com/track/4ZqtyySOmUB8vZi4wG8fT2",
+          "byArtist": [
+            {
+              "@type": "MusicGroup",
+              "name": "RDF$$$"
+            },
+            {
+              "@type": "Person",
+              "name": "A.X.L."
+            },
+            {
+              "@type": "MusicGroup",
+              "name": "Câmara de Ecos"
+            },
+            {
+              "@type": "Person",
+              "name": "Cascavel"
+            },
+            {
+              "@type": "Person",
+              "name": "Betel"
+            },
+            {
+              "@type": "Person",
+              "name": "Ramalho"
+            }
+          ],
+          "duration": "PT148S"
+        },
+        {
+          "@type": "MusicRecording",
+          "name": "Tempo",
+          "url": "https://open.spotify.com/track/42mMKMc49m8e8O0qPz9bhy",
+          "byArtist": [
+            {
+              "@type": "MusicGroup",
+              "name": "RDF$$$"
+            },
+            {
+              "@type": "Person",
+              "name": "A.X.L."
+            },
+            {
+              "@type": "MusicGroup",
+              "name": "Câmara de Ecos"
+            }
+          ],
+          "duration": "PT167S"
+        },
+        {
+          "@type": "MusicRecording",
+          "name": "Mata Que Esta",
+          "url": "https://open.spotify.com/track/7qK0PlDhmzhaVjbhOGTbsc",
+          "byArtist": [
+            {
+              "@type": "MusicGroup",
+              "name": "RDF$$$"
+            },
+            {
+              "@type": "MusicGroup",
+              "name": "Câmara de Ecos"
+            },
+            {
+              "@type": "Person",
+              "name": "A.X.L."
+            }
+          ],
+          "duration": "PT157S"
+        },
+        {
+          "@type": "MusicRecording",
+          "name": "E por Onde For",
+          "url": "https://open.spotify.com/track/5Q857k3IGAWvtnH35CJsdi",
+          "byArtist": [
+            {
+              "@type": "MusicGroup",
+              "name": "RDF$$$"
+            },
+            {
+              "@type": "MusicGroup",
+              "name": "Câmara de Ecos"
+            },
+            {
+              "@type": "Person",
+              "name": "A.X.L."
+            },
+            {
+              "@type": "Person",
+              "name": "Cascavel"
+            }
+          ],
+          "duration": "PT248S"
+        }
+      ]
+    },
+    {
+      "@type": "MusicAlbum",
+      "@id": "https://contato675.github.io/axl-portfolio/pt-br/releases/tudo-de-novo-2020/",
+      "name": "A Vida de Axel Alberigi, parte 2: Tudo de Novo",
+      "datePublished": "2020",
+      "albumReleaseType": "https://schema.org/AlbumRelease",
+      "byArtist": [
+        {
+          "@type": "Person",
+          "name": "A.X.L."
+        }
+      ],
+      "image": "https://contato675.github.io/axl-portfolio/assets/images/covers/tudo-de-novo-2020.webp",
+      "url": "https://contato675.github.io/axl-portfolio/pt-br/releases/tudo-de-novo-2020/",
+      "sameAs": "https://open.spotify.com/album/7x8V3OCxvk0XMWNbVwLsJ4",
+      "numTracks": 9,
+      "track": [
+        {
+          "@type": "MusicRecording",
+          "name": "Big Fi$H",
+          "url": "https://open.spotify.com/track/2JoETUh2W6JElMTLTHB8Z7",
+          "byArtist": [
+            {
+              "@type": "Person",
+              "name": "A.X.L."
+            }
+          ],
+          "duration": "PT183S"
+        },
+        {
+          "@type": "MusicRecording",
+          "name": "Marimbondo",
+          "url": "https://open.spotify.com/track/0EUjD1xTeJl6MaKPNBck0X",
+          "byArtist": [
+            {
+              "@type": "Person",
+              "name": "A.X.L."
+            }
+          ],
+          "duration": "PT241S"
+        },
+        {
+          "@type": "MusicRecording",
+          "name": "Mamangava",
+          "url": "https://open.spotify.com/track/3nTchHhPWbI8BeWJAdsVsJ",
+          "byArtist": [
+            {
+              "@type": "Person",
+              "name": "A.X.L."
+            }
+          ],
+          "duration": "PT192S"
+        },
+        {
+          "@type": "MusicRecording",
+          "name": "O Inimigo",
+          "url": "https://open.spotify.com/track/3GVVUG2wjSCAfvBnSbpRMx",
+          "byArtist": [
+            {
+              "@type": "Person",
+              "name": "A.X.L."
+            }
+          ],
+          "duration": "PT209S"
+        },
+        {
+          "@type": "MusicRecording",
+          "name": "A Maldição do Dragão",
+          "url": "https://open.spotify.com/track/3C41j1sqHBEysDRg2RPzNx",
+          "byArtist": [
+            {
+              "@type": "Person",
+              "name": "A.X.L."
+            }
+          ],
+          "duration": "PT270S"
+        },
+        {
+          "@type": "MusicRecording",
+          "name": "Nada de Novo",
+          "url": "https://open.spotify.com/track/4qx41aj1r6BNw7wFslTVHe",
+          "byArtist": [
+            {
+              "@type": "Person",
+              "name": "A.X.L."
+            }
+          ],
+          "duration": "PT249S"
+        },
+        {
+          "@type": "MusicRecording",
+          "name": "Guatemala",
+          "url": "https://open.spotify.com/track/4DDzttiF4rZ4LPj4SgG5v8",
+          "byArtist": [
+            {
+              "@type": "Person",
+              "name": "A.X.L."
+            },
+            {
+              "@type": "Person",
+              "name": "DJ Cost"
+            }
+          ],
+          "duration": "PT249S"
+        },
+        {
+          "@type": "MusicRecording",
+          "name": "Histórias Perdidas",
+          "url": "https://open.spotify.com/track/1sYCd7cjcVYZ2yUIvNcoxI",
+          "byArtist": [
+            {
+              "@type": "Person",
+              "name": "A.X.L."
+            }
+          ],
+          "duration": "PT193S"
+        },
+        {
+          "@type": "MusicRecording",
+          "name": "Será Doce Morrer",
+          "url": "https://open.spotify.com/track/3ofF8OONSLWO5XpHB18LnF",
+          "byArtist": [
+            {
+              "@type": "Person",
+              "name": "A.X.L."
+            }
+          ],
+          "duration": "PT252S"
+        }
+      ]
+    },
+    {
+      "@type": "MusicAlbum",
+      "@id": "https://contato675.github.io/axl-portfolio/pt-br/releases/rdf-vol-1-2020/",
+      "name": "RDF$$$ Vol. 1: Depois da Água Antes do Fogo",
+      "datePublished": "2020",
+      "albumReleaseType": "https://schema.org/AlbumRelease",
+      "byArtist": [
+        {
+          "@type": "MusicGroup",
+          "name": "RDF$$$"
+        },
+        {
+          "@type": "Person",
+          "name": "A.X.L."
+        },
+        {
+          "@type": "MusicGroup",
+          "name": "Câmara de Ecos"
+        }
+      ],
+      "image": "https://contato675.github.io/axl-portfolio/assets/images/covers/rdf-vol-1-2020.webp",
+      "url": "https://contato675.github.io/axl-portfolio/pt-br/releases/rdf-vol-1-2020/",
+      "albumProductionType": "https://schema.org/CompilationAlbum",
+      "sameAs": "https://open.spotify.com/album/746bNLG6I1RpzhTUU3Z8Kj",
+      "numTracks": 17,
+      "track": [
+        {
+          "@type": "MusicRecording",
+          "name": "O Sol Chegou Mais Cedo",
+          "url": "https://open.spotify.com/track/5EiEr9ramMb5RhYE2eEr36",
+          "byArtist": [
+            {
+              "@type": "Person",
+              "name": "A.X.L."
+            },
+            {
+              "@type": "Person",
+              "name": "Cascavel"
+            },
+            {
+              "@type": "MusicGroup",
+              "name": "Câmara de Ecos"
+            },
+            {
+              "@type": "MusicGroup",
+              "name": "RDF$$$"
+            }
+          ],
+          "duration": "PT262S"
+        },
+        {
+          "@type": "MusicRecording",
+          "name": "Me Dê Visão",
+          "url": "https://open.spotify.com/track/0kbjChjfsHDIQUaG0bsIB8",
+          "byArtist": [
+            {
+              "@type": "Person",
+              "name": "A.X.L."
+            },
+            {
+              "@type": "MusicGroup",
+              "name": "Câmara de Ecos"
+            },
+            {
+              "@type": "MusicGroup",
+              "name": "RDF$$$"
+            }
+          ],
+          "duration": "PT169S"
+        },
+        {
+          "@type": "MusicRecording",
+          "name": "Do Berço a Sepultura",
+          "url": "https://open.spotify.com/track/4HDd7GuWZ2XkbcjLk6usaK",
+          "byArtist": [
+            {
+              "@type": "Person",
+              "name": "A.X.L."
+            },
+            {
+              "@type": "MusicGroup",
+              "name": "Câmara de Ecos"
+            },
+            {
+              "@type": "MusicGroup",
+              "name": "RDF$$$"
+            }
+          ],
+          "duration": "PT216S"
+        },
+        {
+          "@type": "MusicRecording",
+          "name": "Guia",
+          "url": "https://open.spotify.com/track/7vGsYVSpxGPbpgTyXpN8Xp",
+          "byArtist": [
+            {
+              "@type": "Person",
+              "name": "A.X.L."
+            },
+            {
+              "@type": "MusicGroup",
+              "name": "RDF$$$"
+            },
+            {
+              "@type": "Person",
+              "name": "Cascavel"
+            }
+          ],
+          "duration": "PT155S"
+        },
+        {
+          "@type": "MusicRecording",
+          "name": "Pode Virá",
+          "url": "https://open.spotify.com/track/0oGFtXRVRp51Px0BLo2EH9",
+          "byArtist": [
+            {
+              "@type": "Person",
+              "name": "A.X.L."
+            },
+            {
+              "@type": "MusicGroup",
+              "name": "RDF$$$"
+            },
+            {
+              "@type": "MusicGroup",
+              "name": "Câmara de Ecos"
+            }
+          ],
+          "duration": "PT168S"
+        },
+        {
+          "@type": "MusicRecording",
+          "name": "Isso É Só",
+          "url": "https://open.spotify.com/track/5U7kNh2tPVYie3XdvAEIwf",
+          "byArtist": [
+            {
+              "@type": "Person",
+              "name": "A.X.L."
+            },
+            {
+              "@type": "MusicGroup",
+              "name": "RDF$$$"
+            }
+          ],
+          "duration": "PT165S"
+        },
+        {
+          "@type": "MusicRecording",
+          "name": "Faixa 01",
+          "url": "https://open.spotify.com/track/4dTsl69OwmeW6YI90LWAg0",
+          "byArtist": [
+            {
+              "@type": "Person",
+              "name": "A.X.L."
+            },
+            {
+              "@type": "Person",
+              "name": "Ramalho"
+            },
+            {
+              "@type": "MusicGroup",
+              "name": "RDF$$$"
+            },
+            {
+              "@type": "Person",
+              "name": "Cascavel"
+            },
+            {
+              "@type": "MusicGroup",
+              "name": "Câmara de Ecos"
+            },
+            {
+              "@type": "Person",
+              "name": "Betel"
+            }
+          ],
+          "duration": "PT337S"
+        },
+        {
+          "@type": "MusicRecording",
+          "name": "Nova Era$$$",
+          "url": "https://open.spotify.com/track/5csaO7192P5yBNKJZSl0WD",
+          "byArtist": [
+            {
+              "@type": "Person",
+              "name": "A.X.L."
+            },
+            {
+              "@type": "MusicGroup",
+              "name": "RDF$$$"
+            }
+          ],
+          "duration": "PT142S"
+        },
+        {
+          "@type": "MusicRecording",
+          "name": "Analogiaeu P.Arte 1",
+          "url": "https://open.spotify.com/track/6lAFytLs7h09OVUpA4hDni",
+          "byArtist": [
+            {
+              "@type": "Person",
+              "name": "A.X.L."
+            },
+            {
+              "@type": "MusicGroup",
+              "name": "RDF$$$"
+            },
+            {
+              "@type": "Person",
+              "name": "Cascavel"
+            }
+          ],
+          "duration": "PT159S"
+        },
+        {
+          "@type": "MusicRecording",
+          "name": "Analogiaeu P.Arte 2",
+          "url": "https://open.spotify.com/track/64GzMRG4OJXk4cPqtGPwzp",
+          "byArtist": [
+            {
+              "@type": "Person",
+              "name": "A.X.L."
+            },
+            {
+              "@type": "MusicGroup",
+              "name": "RDF$$$"
+            },
+            {
+              "@type": "Person",
+              "name": "Cascavel"
+            }
+          ],
+          "duration": "PT154S"
+        },
+        {
+          "@type": "MusicRecording",
+          "name": "Você É Fogo",
+          "url": "https://open.spotify.com/track/4O2DuECHdeqwcFJ6MLdMVh",
+          "byArtist": [
+            {
+              "@type": "Person",
+              "name": "A.X.L."
+            },
+            {
+              "@type": "MusicGroup",
+              "name": "RDF$$$"
+            }
+          ],
+          "duration": "PT122S"
+        },
+        {
+          "@type": "MusicRecording",
+          "name": "Black Alien Free$$$Tyle",
+          "url": "https://open.spotify.com/track/7gDAcJVDN7e1EtLvlxK8nw",
+          "byArtist": [
+            {
+              "@type": "Person",
+              "name": "A.X.L."
+            },
+            {
+              "@type": "MusicGroup",
+              "name": "RDF$$$"
+            },
+            {
+              "@type": "MusicGroup",
+              "name": "Câmara de Ecos"
+            }
+          ],
+          "duration": "PT186S"
+        },
+        {
+          "@type": "MusicRecording",
+          "name": "Yea Yea",
+          "url": "https://open.spotify.com/track/4OTwgmf8UMga5c3PXamXm7",
+          "byArtist": [
+            {
+              "@type": "Person",
+              "name": "A.X.L."
+            },
+            {
+              "@type": "MusicGroup",
+              "name": "Câmara de Ecos"
+            },
+            {
+              "@type": "MusicGroup",
+              "name": "RDF$$$"
+            }
+          ],
+          "duration": "PT138S"
+        },
+        {
+          "@type": "MusicRecording",
+          "name": "Cami.Case",
+          "url": "https://open.spotify.com/track/7wvIy3mJQvimdvPNu7Kw1k",
+          "byArtist": [
+            {
+              "@type": "Person",
+              "name": "A.X.L."
+            },
+            {
+              "@type": "MusicGroup",
+              "name": "Câmara de Ecos"
+            },
+            {
+              "@type": "MusicGroup",
+              "name": "RDF$$$"
+            }
+          ],
+          "duration": "PT121S"
+        },
+        {
+          "@type": "MusicRecording",
+          "name": "Era de Taurus",
+          "url": "https://open.spotify.com/track/4ig32E0VV2UoAmvvEySUrg",
+          "byArtist": [
+            {
+              "@type": "Person",
+              "name": "A.X.L."
+            },
+            {
+              "@type": "MusicGroup",
+              "name": "RDF$$$"
+            }
+          ],
+          "duration": "PT70S"
+        },
+        {
+          "@type": "MusicRecording",
+          "name": "Apesar de Tudo",
+          "url": "https://open.spotify.com/track/523qKhYIEd1P9n7Aum43hZ",
+          "byArtist": [
+            {
+              "@type": "Person",
+              "name": "A.X.L."
+            },
+            {
+              "@type": "MusicGroup",
+              "name": "RDF$$$"
+            }
+          ],
+          "duration": "PT191S"
+        },
+        {
+          "@type": "MusicRecording",
+          "name": "Corte D'alma",
+          "url": "https://open.spotify.com/track/4rGuVhAZUZNOGiuCTDA87I",
+          "byArtist": [
+            {
+              "@type": "Person",
+              "name": "A.X.L."
+            },
+            {
+              "@type": "MusicGroup",
+              "name": "RDF$$$"
+            },
+            {
+              "@type": "MusicGroup",
+              "name": "Câmara de Ecos"
+            },
+            {
+              "@type": "Person",
+              "name": "Cascavel"
+            }
+          ],
+          "duration": "PT196S"
+        }
+      ]
+    },
+    {
+      "@type": "MusicAlbum",
+      "@id": "https://contato675.github.io/axl-portfolio/pt-br/releases/antes-de-tudo-2014/",
+      "name": "A Vida de Axel Alberigi: Antes de Tudo",
+      "datePublished": "2014",
+      "albumReleaseType": "https://schema.org/AlbumRelease",
+      "byArtist": [
+        {
+          "@type": "Person",
+          "name": "A.X.L."
+        }
+      ],
+      "image": "https://contato675.github.io/axl-portfolio/assets/images/covers/antes-de-tudo-2014.webp",
+      "url": "https://contato675.github.io/axl-portfolio/pt-br/releases/antes-de-tudo-2014/",
+      "sameAs": "https://open.spotify.com/album/6wuaijn0Wg1pDziPuhZKNe",
+      "numTracks": 9,
+      "track": [
+        {
+          "@type": "MusicRecording",
+          "name": "Pretérito",
+          "url": "https://open.spotify.com/track/4LSJTilPZPQmJwQ9AmYDS2",
+          "byArtist": [
+            {
+              "@type": "Person",
+              "name": "A.X.L."
+            }
+          ],
+          "duration": "PT359S"
+        },
+        {
+          "@type": "MusicRecording",
+          "name": "Aquela Noite",
+          "url": "https://open.spotify.com/track/7JaJfkBkjSLGKWD0Rv3coz",
+          "byArtist": [
+            {
+              "@type": "Person",
+              "name": "A.X.L."
+            }
+          ],
+          "duration": "PT312S"
+        },
+        {
+          "@type": "MusicRecording",
+          "name": "O Garoto Não Pode Ouvir",
+          "url": "https://open.spotify.com/track/0mrSqxjkKawgz8iIadRcZF",
+          "byArtist": [
+            {
+              "@type": "Person",
+              "name": "A.X.L."
+            }
+          ],
+          "duration": "PT142S"
+        },
+        {
+          "@type": "MusicRecording",
+          "name": "O Mundo Em Mim, Se Encontrar",
+          "url": "https://open.spotify.com/track/1exy9VpdsTOecir5zWIKc6",
+          "byArtist": [
+            {
+              "@type": "Person",
+              "name": "A.X.L."
+            }
+          ],
+          "duration": "PT261S"
+        },
+        {
+          "@type": "MusicRecording",
+          "name": "Feito Com a Gente",
+          "url": "https://open.spotify.com/track/1NCeUmmhnOvLDBwYB5Fzx5",
+          "byArtist": [
+            {
+              "@type": "Person",
+              "name": "A.X.L."
+            }
+          ],
+          "duration": "PT253S"
+        },
+        {
+          "@type": "MusicRecording",
+          "name": "Quando o Céu Se Abriu",
+          "url": "https://open.spotify.com/track/2P69AEhOymuCMHNH8UjXwV",
+          "byArtist": [
+            {
+              "@type": "Person",
+              "name": "A.X.L."
+            }
+          ],
+          "duration": "PT227S"
+        },
+        {
+          "@type": "MusicRecording",
+          "name": "Não Chore Minha Morte",
+          "url": "https://open.spotify.com/track/09ahkKq2imcWOJxNB9KUY5",
+          "byArtist": [
+            {
+              "@type": "Person",
+              "name": "A.X.L."
+            }
+          ],
+          "duration": "PT364S"
+        },
+        {
+          "@type": "MusicRecording",
+          "name": "Antes de um Crime",
+          "url": "https://open.spotify.com/track/6uHfrRw1PGIcLXIfsfYlFX",
+          "byArtist": [
+            {
+              "@type": "Person",
+              "name": "A.X.L."
+            }
+          ],
+          "duration": "PT215S"
+        },
+        {
+          "@type": "MusicRecording",
+          "name": "Cela Sete",
+          "url": "https://open.spotify.com/track/0YXikfg9OTEpletTMUUjrP",
+          "byArtist": [
+            {
+              "@type": "Person",
+              "name": "A.X.L."
+            }
+          ],
+          "duration": "PT265S"
+        }
+      ]
+    },
+    {
+      "@type": "MusicAlbum",
+      "@id": "https://contato675.github.io/axl-portfolio/pt-br/releases/quando-e-preciso-voltar-2011/",
+      "name": "Quando É Preciso Voltar",
+      "datePublished": "2011",
+      "albumReleaseType": "https://schema.org/AlbumRelease",
+      "byArtist": [
+        {
+          "@type": "Person",
+          "name": "A.X.L."
+        },
+        {
+          "@type": "Person",
+          "name": "Skeeter"
+        }
+      ],
+      "image": "https://contato675.github.io/axl-portfolio/assets/images/covers/quando-e-preciso-voltar-2011.webp",
+      "url": "https://contato675.github.io/axl-portfolio/pt-br/releases/quando-e-preciso-voltar-2011/",
+      "sameAs": "https://open.spotify.com/album/0nLvIHbTPxE9aPmcP45T6D",
+      "numTracks": 10,
+      "track": [
+        {
+          "@type": "MusicRecording",
+          "name": "E Quem É",
+          "url": "https://open.spotify.com/track/1mBw8tExN57uAMswTZeXH6",
+          "byArtist": [
+            {
+              "@type": "Person",
+              "name": "A.X.L."
+            },
+            {
+              "@type": "Person",
+              "name": "Skeeter"
+            }
+          ],
+          "duration": "PT71S"
+        },
+        {
+          "@type": "MusicRecording",
+          "name": "Não, Mano!",
+          "url": "https://open.spotify.com/track/7lA9AOZodwUzaIiDXNoJG9",
+          "byArtist": [
+            {
+              "@type": "Person",
+              "name": "A.X.L."
+            },
+            {
+              "@type": "Person",
+              "name": "Skeeter"
+            }
+          ],
+          "duration": "PT221S"
+        },
+        {
+          "@type": "MusicRecording",
+          "name": "Antes do Meu Final",
+          "url": "https://open.spotify.com/track/6A0tf1o44NcKVnjuwe5ZwQ",
+          "byArtist": [
+            {
+              "@type": "Person",
+              "name": "A.X.L."
+            },
+            {
+              "@type": "Person",
+              "name": "Skeeter"
+            }
+          ],
+          "duration": "PT210S"
+        },
+        {
+          "@type": "MusicRecording",
+          "name": "Mundos em Particular",
+          "url": "https://open.spotify.com/track/5xyqruB0C6S8S7L6yEdqzK",
+          "byArtist": [
+            {
+              "@type": "Person",
+              "name": "A.X.L."
+            },
+            {
+              "@type": "Person",
+              "name": "Skeeter"
+            },
+            {
+              "@type": "Person",
+              "name": "Rashid"
+            }
+          ],
+          "duration": "PT218S"
+        },
+        {
+          "@type": "MusicRecording",
+          "name": "Um, Dois",
+          "url": "https://open.spotify.com/track/4kyktt9XfW0sL8iA1YKFUU",
+          "byArtist": [
+            {
+              "@type": "Person",
+              "name": "A.X.L."
+            },
+            {
+              "@type": "Person",
+              "name": "Skeeter"
+            }
+          ],
+          "duration": "PT73S"
+        },
+        {
+          "@type": "MusicRecording",
+          "name": "Vai Ti Controlar",
+          "url": "https://open.spotify.com/track/7jWJqJtmyiONKSuieKsqJM",
+          "byArtist": [
+            {
+              "@type": "Person",
+              "name": "A.X.L."
+            },
+            {
+              "@type": "Person",
+              "name": "Skeeter"
+            }
+          ],
+          "duration": "PT183S"
+        },
+        {
+          "@type": "MusicRecording",
+          "name": "Luz da Noite",
+          "url": "https://open.spotify.com/track/3SxyRLUbpefUgFf5wEOD99",
+          "byArtist": [
+            {
+              "@type": "Person",
+              "name": "A.X.L."
+            },
+            {
+              "@type": "Person",
+              "name": "Skeeter"
+            },
+            {
+              "@type": "Person",
+              "name": "Fióti"
+            }
+          ],
+          "duration": "PT203S"
+        },
+        {
+          "@type": "MusicRecording",
+          "name": "Flor Laranja",
+          "url": "https://open.spotify.com/track/4Oct09kM0spNmbowmgmjE4",
+          "byArtist": [
+            {
+              "@type": "Person",
+              "name": "A.X.L."
+            },
+            {
+              "@type": "Person",
+              "name": "Skeeter"
+            },
+            {
+              "@type": "Person",
+              "name": "Tassia Reis"
+            }
+          ],
+          "duration": "PT236S"
+        },
+        {
+          "@type": "MusicRecording",
+          "name": "Pretensão",
+          "url": "https://open.spotify.com/track/4gURZBda7wSZjPn3U0WsIP",
+          "byArtist": [
+            {
+              "@type": "Person",
+              "name": "A.X.L."
+            },
+            {
+              "@type": "Person",
+              "name": "Skeeter"
+            },
+            {
+              "@type": "Person",
+              "name": "Tassia Reis"
+            },
+            {
+              "@type": "Person",
+              "name": "Xara"
+            }
+          ],
+          "duration": "PT240S"
+        },
+        {
+          "@type": "MusicRecording",
+          "name": "Preciso Voltar",
+          "url": "https://open.spotify.com/track/5AttEG8vQsDehhO6ghf90s",
+          "byArtist": [
+            {
+              "@type": "Person",
+              "name": "A.X.L."
+            },
+            {
+              "@type": "Person",
+              "name": "Skeeter"
+            },
+            {
+              "@type": "Person",
+              "name": "Rael"
+            }
+          ],
+          "duration": "PT226S"
+        }
+      ]
+    },
+    {
+      "@type": "MusicAlbum",
+      "@id": "https://contato675.github.io/axl-portfolio/pt-br/releases/caos-pessoal-2010/",
+      "name": "Caos Pessoal",
+      "datePublished": "2010",
+      "albumReleaseType": "https://schema.org/AlbumRelease",
+      "byArtist": [
+        {
+          "@type": "Person",
+          "name": "A.X.L."
+        }
+      ],
+      "image": "https://contato675.github.io/axl-portfolio/assets/images/covers/caos-pessoal-2010.webp",
+      "url": "https://contato675.github.io/axl-portfolio/pt-br/releases/caos-pessoal-2010/",
+      "albumProductionType": "https://schema.org/MixtapeAlbum",
+      "sameAs": "https://open.spotify.com/album/4kgZ6BMJvP6Mni09OUCtrB",
+      "numTracks": 13,
+      "track": [
+        {
+          "@type": "MusicRecording",
+          "name": "Agora É Pessoal",
+          "url": "https://open.spotify.com/track/6A2dvZuQsMWRNF5TpURbs3",
+          "byArtist": [
+            {
+              "@type": "Person",
+              "name": "A.X.L."
+            },
+            {
+              "@type": "Person",
+              "name": "DJ Sleep"
+            }
+          ],
+          "duration": "PT187S"
+        },
+        {
+          "@type": "MusicRecording",
+          "name": "Plano Noturno",
+          "url": "https://open.spotify.com/track/7oa7o6o4LznPJUM0Mi2tCf",
+          "byArtist": [
+            {
+              "@type": "Person",
+              "name": "A.X.L."
+            }
+          ],
+          "duration": "PT190S"
+        },
+        {
+          "@type": "MusicRecording",
+          "name": "É Nóiz!",
+          "url": "https://open.spotify.com/track/2ApzEKlRFCteEI8uK86sqp",
+          "byArtist": [
+            {
+              "@type": "Person",
+              "name": "A.X.L."
+            },
+            {
+              "@type": "Person",
+              "name": "DJ Sleep"
+            }
+          ],
+          "duration": "PT182S"
+        },
+        {
+          "@type": "MusicRecording",
+          "name": "Memórias do Concreto",
+          "url": "https://open.spotify.com/track/3G2L3o49ZsGiXAUuU4fJ3E",
+          "byArtist": [
+            {
+              "@type": "Person",
+              "name": "A.X.L."
+            },
+            {
+              "@type": "Person",
+              "name": "DJ Sleep"
+            }
+          ],
+          "duration": "PT171S"
+        },
+        {
+          "@type": "MusicRecording",
+          "name": "Cada Vez Mais",
+          "url": "https://open.spotify.com/track/6sbUB8liicIZ1qUPeJMpTs",
+          "byArtist": [
+            {
+              "@type": "Person",
+              "name": "A.X.L."
+            }
+          ],
+          "duration": "PT203S"
+        },
+        {
+          "@type": "MusicRecording",
+          "name": "Jogo de Dados",
+          "url": "https://open.spotify.com/track/0YEjKL1mKNN8UKDfVAAWBV",
+          "byArtist": [
+            {
+              "@type": "Person",
+              "name": "A.X.L."
+            }
+          ],
+          "duration": "PT94S"
+        },
+        {
+          "@type": "MusicRecording",
+          "name": "Ladrão de Sonhos",
+          "url": "https://open.spotify.com/track/4KSvbAMm9YObe2R1RtXQLn",
+          "byArtist": [
+            {
+              "@type": "Person",
+              "name": "A.X.L."
+            }
+          ],
+          "duration": "PT177S"
+        },
+        {
+          "@type": "MusicRecording",
+          "name": "Entre Linhas",
+          "url": "https://open.spotify.com/track/4E8sNikdmVcJzsIZ00cyxH",
+          "byArtist": [
+            {
+              "@type": "Person",
+              "name": "A.X.L."
+            }
+          ],
+          "duration": "PT160S"
+        },
+        {
+          "@type": "MusicRecording",
+          "name": "Ela Ainda Me Faz",
+          "url": "https://open.spotify.com/track/4oTRUeGUuAu6dwhzXrSDIB",
+          "byArtist": [
+            {
+              "@type": "Person",
+              "name": "A.X.L."
+            }
+          ],
+          "duration": "PT242S"
+        },
+        {
+          "@type": "MusicRecording",
+          "name": "É o Vale Carai",
+          "url": "https://open.spotify.com/track/6B3qd9tYxf5njF0SqjxSPM",
+          "byArtist": [
+            {
+              "@type": "Person",
+              "name": "A.X.L."
+            }
+          ],
+          "duration": "PT217S"
+        },
+        {
+          "@type": "MusicRecording",
+          "name": "Não Está Legal",
+          "url": "https://open.spotify.com/track/7i2W0swovpFaUTPr5O7CDh",
+          "byArtist": [
+            {
+              "@type": "Person",
+              "name": "A.X.L."
+            }
+          ],
+          "duration": "PT227S"
+        },
+        {
+          "@type": "MusicRecording",
+          "name": "Só Eu Sei",
+          "url": "https://open.spotify.com/track/5Mhu3gHNKRG0rQ4MedCndc",
+          "byArtist": [
+            {
+              "@type": "Person",
+              "name": "A.X.L."
+            }
+          ],
+          "duration": "PT227S"
+        },
+        {
+          "@type": "MusicRecording",
+          "name": "Silêncio",
+          "url": "https://open.spotify.com/track/0fUB5QZCjAdIRqnMcbjvBC",
+          "byArtist": [
+            {
+              "@type": "Person",
+              "name": "A.X.L."
+            }
+          ],
+          "duration": "PT196S"
+        }
+      ]
+    },
+    {
+      "@type": "MusicAlbum",
+      "@id": "https://contato675.github.io/axl-portfolio/pt-br/releases/fantasmas-2022/",
+      "name": "Fantasmas",
+      "datePublished": "2022",
+      "albumReleaseType": "https://schema.org/SingleRelease",
+      "byArtist": [
+        {
+          "@type": "Person",
+          "name": "DJ Caique"
+        },
+        {
+          "@type": "Person",
+          "name": "A.X.L."
+        }
+      ],
+      "image": "https://contato675.github.io/axl-portfolio/assets/images/covers/fantasmas-2022.webp",
+      "url": "https://contato675.github.io/axl-portfolio/pt-br/releases/fantasmas-2022/",
+      "sameAs": "https://open.spotify.com/album/3phpGituVhLMV9cPFcv2Go",
+      "numTracks": 1,
+      "track": [
+        {
+          "@type": "MusicRecording",
+          "name": "Fantasmas",
+          "url": "https://open.spotify.com/track/3RuxiOnq4PdK9ti61U2HgT",
+          "byArtist": [
+            {
+              "@type": "Person",
+              "name": "DJ Caique"
+            },
+            {
+              "@type": "Person",
+              "name": "A.X.L."
+            }
+          ],
+          "duration": "PT184S"
+        }
+      ]
+    },
+    {
+      "@type": "MusicAlbum",
+      "@id": "https://contato675.github.io/axl-portfolio/pt-br/releases/axl-pai-guga-2020/",
+      "name": "A.X.L. & pai guga",
+      "datePublished": "2020",
+      "albumReleaseType": "https://schema.org/EPRelease",
+      "byArtist": [
+        {
+          "@type": "Person",
+          "name": "A.X.L."
+        },
+        {
+          "@type": "Person",
+          "name": "pai guga"
+        }
+      ],
+      "image": "https://contato675.github.io/axl-portfolio/assets/images/covers/axl-pai-guga-2020.webp",
+      "url": "https://contato675.github.io/axl-portfolio/pt-br/releases/axl-pai-guga-2020/",
+      "sameAs": "https://open.spotify.com/album/5eZjufPIUxPzAW7WnjlTXW",
+      "numTracks": 2,
+      "track": [
+        {
+          "@type": "MusicRecording",
+          "name": "Imune",
+          "url": "https://open.spotify.com/track/7rPUqc57losJP9zuFJ4sCR",
+          "byArtist": [
+            {
+              "@type": "MusicGroup",
+              "name": "Câmara de Ecos"
+            }
+          ],
+          "duration": "PT283S"
+        },
+        {
+          "@type": "MusicRecording",
+          "name": "O Corpo Sabe",
+          "url": "https://open.spotify.com/track/3dXZfp8PnLHwtLIx4GHaFg",
+          "byArtist": [
+            {
+              "@type": "Person",
+              "name": "A.X.L."
+            },
+            {
+              "@type": "Person",
+              "name": "pai guga"
+            }
+          ],
+          "duration": "PT254S"
+        }
+      ]
+    },
+    {
+      "@type": "MusicAlbum",
+      "@id": "https://contato675.github.io/axl-portfolio/pt-br/releases/ouro-no-sangue-2019/",
+      "name": "Ouro No Sangue",
+      "datePublished": "2019",
+      "albumReleaseType": "https://schema.org/SingleRelease",
+      "byArtist": [
+        {
+          "@type": "Person",
+          "name": "A.X.L."
+        }
+      ],
+      "image": "https://contato675.github.io/axl-portfolio/assets/images/covers/ouro-no-sangue-2019.webp",
+      "url": "https://contato675.github.io/axl-portfolio/pt-br/releases/ouro-no-sangue-2019/",
+      "sameAs": "https://open.spotify.com/album/7C1x4ET9jQfmtgzP43rHJH",
+      "numTracks": 1,
+      "track": [
+        {
+          "@type": "MusicRecording",
+          "name": "Ouro No Sangue",
+          "url": "https://open.spotify.com/track/1OcAFz0VXdZxebTZ5bZMCw",
+          "byArtist": [
+            {
+              "@type": "Person",
+              "name": "A.X.L."
+            }
+          ],
+          "duration": "PT160S"
+        }
+      ]
+    },
+    {
+      "@type": "MusicAlbum",
+      "@id": "https://contato675.github.io/axl-portfolio/pt-br/releases/heranca-verde-escuro-2017/",
+      "name": "Herança Verde Escuro",
+      "datePublished": "2017",
+      "albumReleaseType": "https://schema.org/SingleRelease",
+      "byArtist": [
+        {
+          "@type": "Person",
+          "name": "A.X.L."
+        }
+      ],
+      "image": "https://contato675.github.io/axl-portfolio/assets/images/covers/heranca-verde-escuro-2017.webp",
+      "url": "https://contato675.github.io/axl-portfolio/pt-br/releases/heranca-verde-escuro-2017/",
+      "sameAs": "https://open.spotify.com/album/6DP7xZ7aankYAsW2elMhNG",
+      "numTracks": 1,
+      "track": [
+        {
+          "@type": "MusicRecording",
+          "name": "Herança Verde Escuro",
+          "url": "https://open.spotify.com/track/2SkwRQyEgity99EaVzd1Aa",
+          "byArtist": [
+            {
+              "@type": "Person",
+              "name": "A.X.L."
+            }
+          ],
+          "duration": "PT323S"
+        }
+      ]
+    },
+    {
+      "@type": "MusicAlbum",
+      "@id": "https://contato675.github.io/axl-portfolio/pt-br/releases/triz-2016/",
+      "name": "TRIZ",
+      "datePublished": "2016",
+      "albumReleaseType": "https://schema.org/EPRelease",
+      "byArtist": [
+        {
+          "@type": "Person",
+          "name": "A.X.L."
+        },
+        {
+          "@type": "Person",
+          "name": "Leonardo Irian"
+        }
+      ],
+      "image": "https://contato675.github.io/axl-portfolio/assets/images/covers/triz-2016.webp",
+      "url": "https://contato675.github.io/axl-portfolio/pt-br/releases/triz-2016/"
+    },
+    {
+      "@type": "MusicAlbum",
+      "@id": "https://contato675.github.io/axl-portfolio/pt-br/releases/o-bagulho-e-doidao-2012/",
+      "name": "O Bagulho É Doidão",
+      "datePublished": "2012",
+      "albumReleaseType": "https://schema.org/SingleRelease",
+      "byArtist": [
+        {
+          "@type": "Person",
+          "name": "A.X.L."
+        }
+      ],
+      "image": "https://contato675.github.io/axl-portfolio/assets/images/covers/o-bagulho-e-doidao-2012.webp",
+      "url": "https://contato675.github.io/axl-portfolio/pt-br/releases/o-bagulho-e-doidao-2012/",
+      "sameAs": "https://open.spotify.com/album/2kFAQTsynDZfuMNNUCUO5r",
+      "numTracks": 1,
+      "track": [
+        {
+          "@type": "MusicRecording",
+          "name": "O Bagulho É Doidão",
+          "url": "https://open.spotify.com/track/1vMOsGog40vKxlqVyMMw72",
+          "byArtist": [
+            {
+              "@type": "Person",
+              "name": "A.X.L."
+            }
+          ],
+          "duration": "PT239S"
+        }
+      ]
+    },
+    {
+      "@type": "MusicAlbum",
+      "@id": "https://contato675.github.io/axl-portfolio/pt-br/releases/nao-mano-remix-2012/",
+      "name": "Não, Mano! REMIX",
+      "datePublished": "2012",
+      "albumReleaseType": "https://schema.org/SingleRelease",
+      "byArtist": [
+        {
+          "@type": "Person",
+          "name": "A.X.L."
+        },
+        {
+          "@type": "Person",
+          "name": "Skeeter"
+        },
+        {
+          "@type": "Person",
+          "name": "Flora Matos"
+        },
+        {
+          "@type": "Person",
+          "name": "MV Bill"
+        }
+      ],
+      "image": "https://contato675.github.io/axl-portfolio/assets/images/covers/nao-mano-remix-2012.webp",
+      "url": "https://contato675.github.io/axl-portfolio/pt-br/releases/nao-mano-remix-2012/",
+      "sameAs": "https://open.spotify.com/album/4vzNPOoTyOojq5SS4QiGIz",
+      "numTracks": 1,
+      "track": [
+        {
+          "@type": "MusicRecording",
+          "name": "Não, Mano!",
+          "url": "https://open.spotify.com/track/2eKhdaLcRkXnu0nbtw7QOT",
+          "byArtist": [
+            {
+              "@type": "Person",
+              "name": "A.X.L."
+            },
+            {
+              "@type": "Person",
+              "name": "Skeeter"
+            },
+            {
+              "@type": "Person",
+              "name": "MV Bill"
+            },
+            {
+              "@type": "Person",
+              "name": "Flora Matos"
+            }
+          ],
+          "duration": "PT268S"
+        }
+      ]
+    },
+    {
+      "@type": "MusicAlbum",
+      "@id": "https://contato675.github.io/axl-portfolio/pt-br/releases/uma-lagrima-2009/",
+      "name": "Uma Lágrima",
+      "datePublished": "2009",
+      "albumReleaseType": "https://schema.org/SingleRelease",
+      "byArtist": [
+        {
+          "@type": "Person",
+          "name": "A.X.L."
+        }
+      ],
+      "image": "https://contato675.github.io/axl-portfolio/assets/images/covers/uma-lagrima-2009.webp",
+      "url": "https://contato675.github.io/axl-portfolio/pt-br/releases/uma-lagrima-2009/",
+      "sameAs": "https://open.spotify.com/album/1pZV2pfGqY7lrfDWhwVSBd",
+      "numTracks": 2,
+      "track": [
+        {
+          "@type": "MusicRecording",
+          "name": "Uma Lágrima",
+          "url": "https://open.spotify.com/track/7z5w1BfcAIqlLAJUnpvpeE",
+          "byArtist": [
+            {
+              "@type": "Person",
+              "name": "A.X.L."
+            }
+          ],
+          "duration": "PT246S"
+        },
+        {
+          "@type": "MusicRecording",
+          "name": "Uma Lágrima - REMIX",
+          "url": "https://open.spotify.com/track/5mPaigOMQgYxtWOKqPuXyE",
+          "byArtist": [
+            {
+              "@type": "Person",
+              "name": "A.X.L."
+            }
+          ],
+          "duration": "PT233S"
+        }
+      ]
+    },
+    {
+      "@type": "MusicAlbum",
+      "@id": "https://contato675.github.io/axl-portfolio/pt-br/releases/curta-metragem-2008/",
+      "name": "Curta Metragem",
+      "datePublished": "2008",
+      "albumReleaseType": "https://schema.org/EPRelease",
+      "byArtist": [
+        {
+          "@type": "Person",
+          "name": "A.X.L."
+        }
+      ],
+      "image": "https://contato675.github.io/axl-portfolio/assets/images/covers/curta-metragem-2008.webp",
+      "url": "https://contato675.github.io/axl-portfolio/pt-br/releases/curta-metragem-2008/",
+      "sameAs": "https://www.youtube.com/watch?v=w48_T5GBsG8"
+    }
+  ]
+}
