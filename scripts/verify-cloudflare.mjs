@@ -6,6 +6,7 @@ import {execFileSync} from 'node:child_process';
 import {createHash} from 'node:crypto';
 import {resolve4,resolve6} from 'node:dns/promises';
 import {root,load} from './content.mjs';
+import {verifyOriginAsset} from './cloudflare-response.mjs';
 const base='https://axl.sssom.com/',d=await load();
 const source=execFileSync('git',['-C',root,'rev-parse','HEAD'],{encoding:'utf8'}).trim();
 const mode=process.argv.includes('--release')?'release':'noindex-preview';
@@ -16,7 +17,7 @@ const local=JSON.parse(await fs.readFile(path.join(root,'dist-cloudflare/deploym
 const entries=Object.entries(receipt.hashes),results=[];let cursor=0;
 async function worker(){while(cursor<entries.length){const [file,hash]=entries[cursor++];assert.ok(file&&!file.includes('..')&&!file.startsWith('/')&&!file.includes('\\'));
  const notFound=file==='404.html',route=notFound?'_missing-page-for-deployment-verification/':file.endsWith('index.html')?file.slice(0,-10):file;
- try{const r=await get(route),bytes=Buffer.from(await r.arrayBuffer());results.push({file,route,status:r.status,ok:r.status===(notFound?404:200)&&createHash('sha256').update(bytes).digest('hex')===hash});}
+ try{const r=await get(route),bytes=Buffer.from(await r.arrayBuffer());const integrity=verifyOriginAsset(file,bytes,hash);results.push({file,route,status:r.status,...integrity,ok:r.status===(notFound?404:200)&&integrity.ok});}
  catch(e){results.push({file,route,ok:false,error:e.message});}
 }}
 await Promise.all([worker(),worker(),worker(),worker()]);
@@ -29,6 +30,6 @@ const redirect=await fetch('http://axl.sssom.com/',{redirect:'manual',signal:Abo
 const http={status:redirect.status,location:redirect.headers.get('location'),redirectsToHTTPS:[301,302,307,308].includes(redirect.status)&&redirect.headers.get('location')?.startsWith(base)};
 const dns={ipv4:await resolve4('axl.sssom.com').catch(()=>[]),ipv6:await resolve6('axl.sssom.com').catch(()=>[])};
 const failures=results.filter(r=>!r.ok).length+Object.values(checks).flatMap(Object.values).filter(v=>v!==true).length;
-const report={date:new Date().toISOString(),source,base,mode,verifiedAssets:entries.length,receiptVerified:true,failures,checks,http,dns,results};
+const report={date:new Date().toISOString(),source,base,mode,verifiedAssets:entries.length,receiptVerified:true,rawExact:results.filter(r=>r.rawMatch).length,originIntactWithManagedAdditions:results.filter(r=>r.originMatch&&!r.rawMatch).length,managedAdditions:[...new Set(results.flatMap(r=>r.transforms??[]))],failures,checks,http,dns,results};
 await fs.mkdir(path.join(root,'artifacts/cloudflare'),{recursive:true});await fs.writeFile(path.join(root,'artifacts/cloudflare/live-'+mode+'.json'),JSON.stringify(report,null,2));
 console.log(JSON.stringify({...report,results:undefined}));if(failures)process.exitCode=1;

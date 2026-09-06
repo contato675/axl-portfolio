@@ -23,3 +23,6 @@ A plugin-directory search for Cloudflare returned no available management integr
 The preview keeps meta noindex and an empty sitemap. llms.txt and Markdown are available as reading aids, not guarantees of ranking, acceptance or training protection. On a custom host robots.txt is at the correct origin root; publish its final policy and indexation only after editorial approval. At the github.io project subpath its robots copy does not control the entire origin.
 
 Sources: https://docs.github.com/en/pages/configuring-a-custom-domain-for-your-github-pages-site/managing-a-custom-domain-for-your-github-pages-site ; https://developers.cloudflare.com/dns/manage-dns-records/how-to/create-dns-records/
+
+## Superseding final architecture — 6 September 2026
+The GitHub custom-domain proposal above is superseded. The final axl.sssom.com hostname uses a dedicated Cloudflare Workers Static Assets service; DNS and TLS are provider-managed through a Worker Custom Domain. The GitHub Pages preview stays independent. See cloudflare-hosting.md and cloudflare-live-verification.md. No parent DNS or SSSOM Pages project changes are required.

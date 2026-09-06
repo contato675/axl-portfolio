@@ -22,3 +22,6 @@ Preview: https://contato675.github.io/axl-portfolio/
 Target: https://axl.sssom.com/ — not claimed active before DNS and HTTPS validation.
 Source: feat/axl-portfolio; deployment: pages-preview; PR remains without self-merge. `npm run publish:preview` requires a clean pushed feature branch and noindex output. `node scripts/verify-published.mjs` checks exact live hashes and editorial requirements.
 HTML, Markdown, llms.txt/full and JSON-LD use the same records. Root sitemap generation is opt-in with explicit sign-off; the preview remains noindex with an empty sitemap. A robots.txt inside the GitHub project path is not the policy of the host root. See [discovery and editorial checklist](docs/discovery-and-editorial.md) and [hosting](docs/hosting.md).
+
+## Final custom-domain hosting
+The final website is https://axl.sssom.com/ (Portuguese: /pt-br/), hosted independently in Cloudflare Workers Static Assets. GitHub retains source and the separate noindex Pages preview. See docs/cloudflare-hosting.md for build/deploy commands and docs/cloudflare-live-verification.md for edge-response validation. Do not create a CNAME to GitHub for this final architecture. After approved source changes, run publish:cloudflare:release and verify:cloudflare; a push alone does not update this domain.

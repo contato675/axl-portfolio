@@ -11,6 +11,10 @@ const source=git('rev-parse','HEAD');
 if(git('ls-remote','origin','refs/heads/feat/axl-portfolio').split(/\s/)[0]!==source)throw new Error('Publish the reviewed source to GitHub first');
 const before=git('ls-remote','origin','refs/heads/main','refs/heads/pages-preview');
 const indexable=process.argv.includes('--release');
+if(!indexable){
+ const response=await fetch('https://axl.sssom.com/deployment.json',{signal:AbortSignal.timeout(15000)});
+ if(response.ok&&(await response.json()).mode==='release')throw new Error('Refusing to downgrade an indexed site to preview; use --release with publication approval');
+}
 const approval=indexable?JSON.parse(await fs.readFile(path.join(root,'artifacts/cloudflare/approval.json'),'utf8')):null;
 await buildCloudflare({indexable,approval});
 const windows=process.platform==='win32';
