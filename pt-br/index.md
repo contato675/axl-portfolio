@@ -2,15 +2,15 @@
 
 https://contato675.github.io/axl-portfolio/pt-br/
 
-Rapper e compositor de Jacareí. Discos autobiográficos, audiovisual independente e uma vida na música. Fundador da RUADOFLOW.
+Rapper e compositor de Jacareí. Discos autobiográficos, audiovisual independente e uma vida na música. Fundador do coletivo RUADOFLOW.
 
-A.X.L. é Axel Antonio Alberigi Diniz, rapper, compositor e fundador da RUADOFLOW. Nascido em 1990 em Jacareí, interior de São Paulo, construiu sua trajetória a partir do rap do Vale do Paraíba, articulando criação musical independente, produção audiovisual e encontros culturais.
+A.X.L. é Axel Antonio Alberigi Diniz, rapper e compositor brasileiro, fundador do coletivo RUADOFLOW. Nascido em 1990 em Jacareí, interior de São Paulo, construiu sua trajetória a partir do rap do Vale do Paraíba, articulando criação musical independente, produção audiovisual e encontros culturais.
 
 Ativo desde 2004, quando integrou o grupo Incognitivos, iniciou sua caminhada solo em 2008, ano de criação da RUADOFLOW e do EP Curta Metragem. A mixtape Caos Pessoal (2010) e o álbum Quando É Preciso Voltar (2011), com Skeeter, antecederam A Vida de Axel Alberigi: Antes de Tudo (2014), trabalho marcado pela escrita autobiográfica, pela memória familiar e pela busca de transformação pessoal. Sua circulação incluiu o programa Manos e Minas, da TV Cultura.
 
 Essa narrativa se desdobra em Tudo de Novo (2020) e Tudo Mudou (2022), colocando a própria vida em diálogo com a passagem do tempo. Em paralelo, sua discografia reúne o projeto TRIZ com Leonardo Irian, o EP com pai guga, as coletâneas RDF$$$ e a colaboração com Barba Negra em 2024. O remix de Não, Mano! aproxima sua voz das de Flora Matos e MV Bill.
 
-Entre discos, videoclipes e apresentações ao vivo, A.X.L. mantém uma prática artística autoral ligada à experiência coletiva. Na RUADOFLOW, a música também se torna espaço de encontro, promovendo eventos e conexões entre artistas e públicos.
+Entre discos, videoclipes e apresentações ao vivo, o rapper e compositor brasileiro A.X.L. mantém uma prática artística autoral ligada à experiência coletiva. Por meio do coletivo RUADOFLOW, a música também se torna espaço de encontro, promovendo eventos culturais e conexões entre artistas e públicos.
 
 ## Discografia
 
@@ -54,8 +54,14 @@ Entre discos, videoclipes e apresentações ao vivo, A.X.L. mantém uma prática
 - [Herança Verde Escuro · RUADOFLOW 10 Anos](https://www.youtube.com/watch?v=kDln6f8bwuc)
 
 
+## Fontes
+
+ - [Rolling Stone Brasil · Antes de Tudo](https://rollingstone.com.br/blog-cultura-de-rua/exclusivo-xl-lanca-capa-do-disco-i-vida-de-axel-alberigi-antes-de-tudoi/)
+ - [Bocada Forte · 2015](https://www.bocadaforte.com.br/reportagens/eovale-a-x-l-antes-de-tudo-primeira-parte-de-sua-trilogia)
+ - [RND · TRIZ · 2017](https://portalrnd.com.br/os-albuns-colaborativos-do-rap-brasileiro/)
+
 ## Contato
 
-contato@ruadoflow.com
+ruadoflow@gmail.com
 
 As obras e músicas pertencem aos seus respectivos titulares.

@@ -19,4 +19,24 @@ if(menu?.showModal&&opener){opener.hidden=false;document.querySelector('.fallbac
  menu.addEventListener('click',e=>{const a=e.target.closest('a[href]');if(!a||!normalClick(e))return;const target=new URL(a.href);dismiss(menu,false);if(target.origin===location.origin&&target.pathname===location.pathname&&target.hash){const section=document.getElementById(target.hash.slice(1));if(section){e.preventDefault();history.pushState(null,'',target.pathname+target.hash);section.scrollIntoView({behavior:matchMedia('(prefers-reduced-motion: reduce)').matches?'instant':'smooth'});const heading=section.querySelector('h2')||section;heading.setAttribute('tabindex','-1');heading.focus({preventScroll:true});}}});
  matchMedia('(min-width:1024px)').addEventListener('change',e=>{if(e.matches&&menu.open){dismiss(menu,false);document.querySelector('.desktop-nav a')?.focus({preventScroll:true});}});
 }
-for(const button of document.querySelectorAll('[data-video]')){button.hidden=false;button.addEventListener('click',()=>{const frame=document.createElement('iframe');frame.className='video-frame';frame.src='https://www.youtube-nocookie.com/embed/'+button.dataset.video;frame.title=button.dataset.title;frame.allow='encrypted-media; fullscreen; picture-in-picture';frame.referrerPolicy='strict-origin-when-cross-origin';frame.setAttribute('allowfullscreen','');frame.setAttribute('sandbox','allow-scripts allow-same-origin allow-presentation');button.parentElement.replaceWith(frame);frame.focus();},{once:true});}
+// Preserve the 16:9 shell across activation; closing the disclosure stops its players.
+const restoreVideoPosters=new Map();
+for(const button of document.querySelectorAll('[data-video]')){
+ button.hidden=false;
+ const surface=button.parentElement,poster=surface.querySelector('img');
+ restoreVideoPosters.set(surface,()=>surface.replaceChildren(poster,button));
+ button.addEventListener('click',()=>{
+  const frame=document.createElement('iframe');frame.className='video-frame';
+  frame.src='https://www.youtube-nocookie.com/embed/'+button.dataset.video;
+  frame.title=button.dataset.title;frame.allow='encrypted-media; fullscreen; picture-in-picture';
+  frame.referrerPolicy='strict-origin-when-cross-origin';frame.setAttribute('allowfullscreen','');
+  frame.setAttribute('sandbox','allow-scripts allow-same-origin allow-presentation');
+  surface.replaceChildren(frame);frame.focus();
+ });
+}
+const moreVideos=document.querySelector('.video-more');
+moreVideos?.addEventListener('toggle',()=>{
+ if(!moreVideos.open)for(const surface of moreVideos.querySelectorAll('.video-surface')){
+  if(surface.querySelector('iframe'))restoreVideoPosters.get(surface)?.();
+ }
+});

@@ -1,3 +1,11 @@
-# Preview: noindex in HTML; this file is effective only at the origin root.
-User-agent: *
+# Effective only at https://contato675.github.io/robots.txt; a project-subpath copy is a deployment reference.
+# Crawling is not a licence to reuse music/artwork. Training and search controls are separate.
+# Preview: allow reading so HTML noindex can be observed; no sitemap is advertised.
+User-agent: GPTBot
 Disallow: /axl-portfolio/
+
+User-agent: OAI-SearchBot
+Allow: /axl-portfolio/
+
+User-agent: *
+Allow: /axl-portfolio/

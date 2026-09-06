@@ -6,12 +6,35 @@
       "@id": "https://contato675.github.io/axl-portfolio/#artist",
       "name": "A.X.L.",
       "alternateName": "Axel Antonio Alberigi Diniz",
-      "description": "A.X.L. é Axel Antonio Alberigi Diniz, rapper, compositor e fundador da RUADOFLOW. Nascido em 1990 em Jacareí, interior de São Paulo, construiu sua trajetória a partir do rap do Vale do Paraíba, articulando criação musical independente, produção audiovisual e encontros culturais.\n\nAtivo desde 2004, quando integrou o grupo Incognitivos, iniciou sua caminhada solo em 2008, ano de criação da RUADOFLOW e do EP Curta Metragem. A mixtape Caos Pessoal (2010) e o álbum Quando É Preciso Voltar (2011), com Skeeter, antecederam A Vida de Axel Alberigi: Antes de Tudo (2014), trabalho marcado pela escrita autobiográfica, pela memória familiar e pela busca de transformação pessoal. Sua circulação incluiu o programa Manos e Minas, da TV Cultura.\n\nEssa narrativa se desdobra em Tudo de Novo (2020) e Tudo Mudou (2022), colocando a própria vida em diálogo com a passagem do tempo. Em paralelo, sua discografia reúne o projeto TRIZ com Leonardo Irian, o EP com pai guga, as coletâneas RDF$$$ e a colaboração com Barba Negra em 2024. O remix de Não, Mano! aproxima sua voz das de Flora Matos e MV Bill.\n\nEntre discos, videoclipes e apresentações ao vivo, A.X.L. mantém uma prática artística autoral ligada à experiência coletiva. Na RUADOFLOW, a música também se torna espaço de encontro, promovendo eventos e conexões entre artistas e públicos.",
+      "description": "A.X.L. é Axel Antonio Alberigi Diniz, rapper e compositor brasileiro, fundador do coletivo RUADOFLOW. Nascido em 1990 em Jacareí, interior de São Paulo, construiu sua trajetória a partir do rap do Vale do Paraíba, articulando criação musical independente, produção audiovisual e encontros culturais.\n\nAtivo desde 2004, quando integrou o grupo Incognitivos, iniciou sua caminhada solo em 2008, ano de criação da RUADOFLOW e do EP Curta Metragem. A mixtape Caos Pessoal (2010) e o álbum Quando É Preciso Voltar (2011), com Skeeter, antecederam A Vida de Axel Alberigi: Antes de Tudo (2014), trabalho marcado pela escrita autobiográfica, pela memória familiar e pela busca de transformação pessoal. Sua circulação incluiu o programa Manos e Minas, da TV Cultura.\n\nEssa narrativa se desdobra em Tudo de Novo (2020) e Tudo Mudou (2022), colocando a própria vida em diálogo com a passagem do tempo. Em paralelo, sua discografia reúne o projeto TRIZ com Leonardo Irian, o EP com pai guga, as coletâneas RDF$$$ e a colaboração com Barba Negra em 2024. O remix de Não, Mano! aproxima sua voz das de Flora Matos e MV Bill.\n\nEntre discos, videoclipes e apresentações ao vivo, o rapper e compositor brasileiro A.X.L. mantém uma prática artística autoral ligada à experiência coletiva. Por meio do coletivo RUADOFLOW, a música também se torna espaço de encontro, promovendo eventos culturais e conexões entre artistas e públicos.",
       "url": "https://contato675.github.io/axl-portfolio/pt-br/",
       "image": "https://contato675.github.io/axl-portfolio/assets/images/profile/axl.webp",
-      "email": "contato@ruadoflow.com",
-      "sameAs": [
-        "https://sssom.com/artists/a2337c6e-68a4-47b8-bf72-6403a552d552"
+      "email": "ruadoflow@gmail.com",
+      "nationality": {
+        "@type": "Country",
+        "name": "Brasil"
+      },
+      "memberOf": {
+        "@type": "Organization",
+        "name": "RUADOFLOW",
+        "description": "Coletivo cultural brasileiro"
+      },
+      "subjectOf": [
+        {
+          "@type": "CreativeWork",
+          "name": "Rolling Stone Brasil · Antes de Tudo",
+          "url": "https://rollingstone.com.br/blog-cultura-de-rua/exclusivo-xl-lanca-capa-do-disco-i-vida-de-axel-alberigi-antes-de-tudoi/"
+        },
+        {
+          "@type": "CreativeWork",
+          "name": "Bocada Forte · 2015",
+          "url": "https://www.bocadaforte.com.br/reportagens/eovale-a-x-l-antes-de-tudo-primeira-parte-de-sua-trilogia"
+        },
+        {
+          "@type": "CreativeWork",
+          "name": "RND · TRIZ · 2017",
+          "url": "https://portalrnd.com.br/os-albuns-colaborativos-do-rap-brasileiro/"
+        }
       ]
     },
     {

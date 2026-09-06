@@ -25,8 +25,14 @@ Mixtape · A.X.L.
 13. [Silêncio](https://open.spotify.com/track/0fUB5QZCjAdIRqnMcbjvBC) — A.X.L. — 3:16
 
 
+## Fontes
+
+ - [Rolling Stone Brasil · Antes de Tudo](https://rollingstone.com.br/blog-cultura-de-rua/exclusivo-xl-lanca-capa-do-disco-i-vida-de-axel-alberigi-antes-de-tudoi/)
+ - [Bocada Forte · 2015](https://www.bocadaforte.com.br/reportagens/eovale-a-x-l-antes-de-tudo-primeira-parte-de-sua-trilogia)
+ - [RND · TRIZ · 2017](https://portalrnd.com.br/os-albuns-colaborativos-do-rap-brasileiro/)
+
 ## Contato
 
-contato@ruadoflow.com
+ruadoflow@gmail.com
 
 As obras e músicas pertencem aos seus respectivos titulares.

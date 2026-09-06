@@ -1,6 +1,6 @@
 # A.X.L.
 
-> Brazilian rapper and songwriter. Brazilian rapper and songwriter from Jacareí. Autobiographical records, independent cinema and a life in music. Founder of RUADOFLOW.
+> Brazilian rapper and songwriter from Jacareí. Autobiographical records, independent audiovisual work and a life in music. Founder of the RUADOFLOW collective.
 
 English-first music portfolio with a Portuguese counterpart. This is the same public material presented to people; no hidden credentials or ranking instructions. Original release years come from the artist, not streaming re-upload dates. A listed release does not grant reuse or training rights.
 
@@ -28,5 +28,6 @@ English-first music portfolio with a Portuguese counterpart. This is the same pu
 - [Curta Metragem](https://contato675.github.io/axl-portfolio/releases/curta-metragem-2008/index.md): 2008, EP, A.X.L..
 
 ## Optional
+- [Press references and biography](https://contato675.github.io/axl-portfolio/index.md)
 - [Full bilingual text](https://contato675.github.io/axl-portfolio/llms-full.txt)
 - [Structured music data](https://contato675.github.io/axl-portfolio/portfolio.json)
