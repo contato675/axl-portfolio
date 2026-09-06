@@ -1,0 +1,16 @@
+{
+  "name": "axl-portfolio",
+  "account_id": "1f18614781ebde72c3509947d904032e",
+  "compatibility_date": "2026-09-06",
+  "workers_dev": false,
+  "preview_urls": false,
+  "routes": [
+    { "pattern": "axl.sssom.com", "custom_domain": true }
+  ],
+  "assets": {
+    "directory": "./dist-cloudflare",
+    "html_handling": "force-trailing-slash",
+    "not_found_handling": "404-page"
+  },
+  "observability": { "enabled": false }
+}
