@@ -34,6 +34,8 @@ Across records, music videos and live performances, Brazilian rapper and songwri
 
 ## Music videos
 
+Beyond songwriting, A.X.L. also directs music videos.
+
 - [Herança Verde Escuro](https://www.youtube.com/watch?v=yTs9CgrP-88)
 - [Nada De Novo](https://www.youtube.com/watch?v=5nFmCqWsEYk)
 - [O Mundo Em Mim, Se Encontrar](https://www.youtube.com/watch?v=W1M8L5p7c30)

@@ -34,6 +34,8 @@ Entre discos, videoclipes e apresentações ao vivo, o rapper e compositor brasi
 
 ## Videoclipes
 
+Além da composição, A.X.L. também assina a direção de videoclipes.
+
 - [Herança Verde Escuro](https://www.youtube.com/watch?v=yTs9CgrP-88)
 - [Nada De Novo](https://www.youtube.com/watch?v=5nFmCqWsEYk)
 - [O Mundo Em Mim, Se Encontrar](https://www.youtube.com/watch?v=W1M8L5p7c30)
