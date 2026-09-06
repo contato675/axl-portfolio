@@ -1,0 +1,425 @@
+{
+  "date": "2026-09-06T21:38:37.054Z",
+  "browser": "Chrome/152.0.7977.77",
+  "policy": "Original Apple-like / Müller audit, not Apple certification",
+  "results": [
+    {
+      "name": "layout en 320",
+      "status": "PASS",
+      "value": {
+        "overflow": 0,
+        "h1": 1,
+        "language": "en",
+        "small": [],
+        "badImages": 0,
+        "drift": 0,
+        "body": "rgb(5, 5, 5)",
+        "font": "Archivo, Inter, system-ui, sans-serif",
+        "archivo": true,
+        "inter": true,
+        "iframe": 0
+      }
+    },
+    {
+      "name": "layout en 390",
+      "status": "PASS",
+      "value": {
+        "overflow": 0,
+        "h1": 1,
+        "language": "en",
+        "small": [],
+        "badImages": 0,
+        "drift": 0,
+        "body": "rgb(5, 5, 5)",
+        "font": "Archivo, Inter, system-ui, sans-serif",
+        "archivo": true,
+        "inter": true,
+        "iframe": 0
+      }
+    },
+    {
+      "name": "layout en 480",
+      "status": "PASS",
+      "value": {
+        "overflow": 0,
+        "h1": 1,
+        "language": "en",
+        "small": [],
+        "badImages": 0,
+        "drift": 0,
+        "body": "rgb(5, 5, 5)",
+        "font": "Archivo, Inter, system-ui, sans-serif",
+        "archivo": true,
+        "inter": true,
+        "iframe": 0
+      }
+    },
+    {
+      "name": "layout en 768",
+      "status": "PASS",
+      "value": {
+        "overflow": 0,
+        "h1": 1,
+        "language": "en",
+        "small": [],
+        "badImages": 0,
+        "drift": 0,
+        "body": "rgb(5, 5, 5)",
+        "font": "Archivo, Inter, system-ui, sans-serif",
+        "archivo": true,
+        "inter": true,
+        "iframe": 0
+      }
+    },
+    {
+      "name": "layout en 1024",
+      "status": "PASS",
+      "value": {
+        "overflow": 0,
+        "h1": 1,
+        "language": "en",
+        "small": [],
+        "badImages": 0,
+        "drift": 0.04717500000015207,
+        "body": "rgb(5, 5, 5)",
+        "font": "Archivo, Inter, system-ui, sans-serif",
+        "archivo": true,
+        "inter": true,
+        "iframe": 0
+      }
+    },
+    {
+      "name": "layout en 1440",
+      "status": "PASS",
+      "value": {
+        "overflow": 0,
+        "h1": 1,
+        "language": "en",
+        "small": [],
+        "badImages": 0,
+        "drift": 0,
+        "body": "rgb(5, 5, 5)",
+        "font": "Archivo, Inter, system-ui, sans-serif",
+        "archivo": true,
+        "inter": true,
+        "iframe": 0
+      }
+    },
+    {
+      "name": "layout en 1920",
+      "status": "PASS",
+      "value": {
+        "overflow": 0,
+        "h1": 1,
+        "language": "en",
+        "small": [],
+        "badImages": 0,
+        "drift": 0,
+        "body": "rgb(5, 5, 5)",
+        "font": "Archivo, Inter, system-ui, sans-serif",
+        "archivo": true,
+        "inter": true,
+        "iframe": 0
+      }
+    },
+    {
+      "name": "layout pt-BR 320",
+      "status": "PASS",
+      "value": {
+        "overflow": 0,
+        "h1": 1,
+        "language": "pt-BR",
+        "small": [],
+        "badImages": 0,
+        "drift": 0,
+        "body": "rgb(5, 5, 5)",
+        "font": "Archivo, Inter, system-ui, sans-serif",
+        "archivo": true,
+        "inter": true,
+        "iframe": 0
+      }
+    },
+    {
+      "name": "layout pt-BR 390",
+      "status": "PASS",
+      "value": {
+        "overflow": 0,
+        "h1": 1,
+        "language": "pt-BR",
+        "small": [],
+        "badImages": 0,
+        "drift": 0,
+        "body": "rgb(5, 5, 5)",
+        "font": "Archivo, Inter, system-ui, sans-serif",
+        "archivo": true,
+        "inter": true,
+        "iframe": 0
+      }
+    },
+    {
+      "name": "layout pt-BR 480",
+      "status": "PASS",
+      "value": {
+        "overflow": 0,
+        "h1": 1,
+        "language": "pt-BR",
+        "small": [],
+        "badImages": 0,
+        "drift": 0,
+        "body": "rgb(5, 5, 5)",
+        "font": "Archivo, Inter, system-ui, sans-serif",
+        "archivo": true,
+        "inter": true,
+        "iframe": 0
+      }
+    },
+    {
+      "name": "layout pt-BR 768",
+      "status": "PASS",
+      "value": {
+        "overflow": 0,
+        "h1": 1,
+        "language": "pt-BR",
+        "small": [],
+        "badImages": 0,
+        "drift": 0,
+        "body": "rgb(5, 5, 5)",
+        "font": "Archivo, Inter, system-ui, sans-serif",
+        "archivo": true,
+        "inter": true,
+        "iframe": 0
+      }
+    },
+    {
+      "name": "layout pt-BR 1024",
+      "status": "PASS",
+      "value": {
+        "overflow": 0,
+        "h1": 1,
+        "language": "pt-BR",
+        "small": [],
+        "badImages": 0,
+        "drift": 0.04717500000015207,
+        "body": "rgb(5, 5, 5)",
+        "font": "Archivo, Inter, system-ui, sans-serif",
+        "archivo": true,
+        "inter": true,
+        "iframe": 0
+      }
+    },
+    {
+      "name": "layout pt-BR 1440",
+      "status": "PASS",
+      "value": {
+        "overflow": 0,
+        "h1": 1,
+        "language": "pt-BR",
+        "small": [],
+        "badImages": 0,
+        "drift": 0,
+        "body": "rgb(5, 5, 5)",
+        "font": "Archivo, Inter, system-ui, sans-serif",
+        "archivo": true,
+        "inter": true,
+        "iframe": 0
+      }
+    },
+    {
+      "name": "layout pt-BR 1920",
+      "status": "PASS",
+      "value": {
+        "overflow": 0,
+        "h1": 1,
+        "language": "pt-BR",
+        "small": [],
+        "badImages": 0,
+        "drift": 0,
+        "body": "rgb(5, 5, 5)",
+        "font": "Archivo, Inter, system-ui, sans-serif",
+        "archivo": true,
+        "inter": true,
+        "iframe": 0
+      }
+    },
+    {
+      "name": "release en barba-negra-2024",
+      "status": "PASS"
+    },
+    {
+      "name": "release en tudo-mudou-2022",
+      "status": "PASS"
+    },
+    {
+      "name": "release en rdf-vol-2-2021",
+      "status": "PASS"
+    },
+    {
+      "name": "release en tudo-de-novo-2020",
+      "status": "PASS"
+    },
+    {
+      "name": "release en rdf-vol-1-2020",
+      "status": "PASS"
+    },
+    {
+      "name": "release en antes-de-tudo-2014",
+      "status": "PASS"
+    },
+    {
+      "name": "release en quando-e-preciso-voltar-2011",
+      "status": "PASS"
+    },
+    {
+      "name": "release en caos-pessoal-2010",
+      "status": "PASS"
+    },
+    {
+      "name": "release en fantasmas-2022",
+      "status": "PASS"
+    },
+    {
+      "name": "release en axl-pai-guga-2020",
+      "status": "PASS"
+    },
+    {
+      "name": "release en ouro-no-sangue-2019",
+      "status": "PASS"
+    },
+    {
+      "name": "release en heranca-verde-escuro-2017",
+      "status": "PASS"
+    },
+    {
+      "name": "release en triz-2016",
+      "status": "PASS"
+    },
+    {
+      "name": "release en o-bagulho-e-doidao-2012",
+      "status": "PASS"
+    },
+    {
+      "name": "release en nao-mano-remix-2012",
+      "status": "PASS"
+    },
+    {
+      "name": "release en uma-lagrima-2009",
+      "status": "PASS"
+    },
+    {
+      "name": "release en curta-metragem-2008",
+      "status": "PASS"
+    },
+    {
+      "name": "release pt-BR barba-negra-2024",
+      "status": "PASS"
+    },
+    {
+      "name": "release pt-BR tudo-mudou-2022",
+      "status": "PASS"
+    },
+    {
+      "name": "release pt-BR rdf-vol-2-2021",
+      "status": "PASS"
+    },
+    {
+      "name": "release pt-BR tudo-de-novo-2020",
+      "status": "PASS"
+    },
+    {
+      "name": "release pt-BR rdf-vol-1-2020",
+      "status": "PASS"
+    },
+    {
+      "name": "release pt-BR antes-de-tudo-2014",
+      "status": "PASS"
+    },
+    {
+      "name": "release pt-BR quando-e-preciso-voltar-2011",
+      "status": "PASS"
+    },
+    {
+      "name": "release pt-BR caos-pessoal-2010",
+      "status": "PASS"
+    },
+    {
+      "name": "release pt-BR fantasmas-2022",
+      "status": "PASS"
+    },
+    {
+      "name": "release pt-BR axl-pai-guga-2020",
+      "status": "PASS"
+    },
+    {
+      "name": "release pt-BR ouro-no-sangue-2019",
+      "status": "PASS"
+    },
+    {
+      "name": "release pt-BR heranca-verde-escuro-2017",
+      "status": "PASS"
+    },
+    {
+      "name": "release pt-BR triz-2016",
+      "status": "PASS"
+    },
+    {
+      "name": "release pt-BR o-bagulho-e-doidao-2012",
+      "status": "PASS"
+    },
+    {
+      "name": "release pt-BR nao-mano-remix-2012",
+      "status": "PASS"
+    },
+    {
+      "name": "release pt-BR uma-lagrima-2009",
+      "status": "PASS"
+    },
+    {
+      "name": "release pt-BR curta-metragem-2008",
+      "status": "PASS"
+    },
+    {
+      "name": "dialog keyboard, Escape, focus, Back and Forward",
+      "status": "PASS"
+    },
+    {
+      "name": "mobile drawer includes language, traps focus and closes",
+      "status": "PASS"
+    },
+    {
+      "name": "all videos consent gated with no autoplay",
+      "status": "PASS"
+    },
+    {
+      "name": "reduced motion eliminates decorative transitions",
+      "status": "PASS"
+    },
+    {
+      "name": "static release page and menu without JavaScript",
+      "status": "PASS"
+    },
+    {
+      "name": "custom-domain root routing en",
+      "status": "PASS"
+    },
+    {
+      "name": "custom-domain root routing pt-BR",
+      "status": "PASS"
+    }
+  ],
+  "failures": 0,
+  "hashes": {
+    "scripts/render.mjs": "5fe8fa919fcbfa482ae36d24810c1dfa2ccf717c23853be3c5d7ea770b0bc678",
+    "scripts/content.mjs": "38d45e8007f0e05c563beea139bc7cea1806e5f5aad923d017168cc011f6f947",
+    "scripts/build.mjs": "37f06489596d82f8dfe6f2dd60789610e009781fc0419b7d8fc9ced7097847ab",
+    "scripts/audit.mjs": "357e79827bbf159340a25534cf4aa85240e039097c995f7a5f7511a5b7fb8a11",
+    "site/assets/css/style.css": "9d70fcbc8474ce153c718eb96b5f6656a5b57eb0379d3b161239b4195176c329",
+    "site/assets/js/app.js": "3632bc7eb7e8fb58ff931a737622d6aa56f51ae34ec1a53d5e26a2a9eaf22c57"
+  },
+  "limits": [
+    "Human English review pending",
+    "Physical iOS/Android, assistive-technology and colour fidelity review not claimed",
+    "Video frame configuration tested, not third-party playback availability",
+    "External Google Fonts requests are intentional; no font binaries bundled",
+    "Custom domain tested locally, not public DNS/HTTPS"
+  ]
+}

@@ -1,0 +1,8 @@
+import http from 'node:http';
+import fs from 'node:fs/promises';
+import path from 'node:path';
+import {fileURLToPath} from 'node:url';
+import {root} from './content.mjs';
+const mime={'.html':'text/html; charset=utf-8','.md':'text/markdown; charset=utf-8','.txt':'text/plain; charset=utf-8','.json':'application/json; charset=utf-8','.css':'text/css','.js':'text/javascript','.webp':'image/webp','.xml':'application/xml'};
+export async function startServer(dir,base='/axl-portfolio/',port=0){const server=http.createServer(async(req,res)=>{try{if(!['GET','HEAD'].includes(req.method)){res.writeHead(405);return res.end();}const url=new URL(req.url,'http://localhost');let p=decodeURIComponent(url.pathname);if(!p.startsWith(base)){res.writeHead(404);return res.end();}p=p.slice(base.length);if(p.includes('..')||p.includes('\\')||p.split('/').some(x=>x.startsWith('.'))){res.writeHead(404);return res.end();}if(!p||p.endsWith('/'))p+='index.html';const full=path.resolve(dir,p);if(!full.startsWith(path.resolve(dir)+path.sep)){res.writeHead(404);return res.end();}const stat=await fs.lstat(full);if(!stat.isFile()||stat.isSymbolicLink()){res.writeHead(404);return res.end();}const b=await fs.readFile(full);res.writeHead(200,{'Content-Type':mime[path.extname(full)]||'text/plain','Cache-Control':'no-store'});res.end(req.method==='HEAD'?undefined:b);}catch{res.writeHead(404);res.end('Not found');}});await new Promise(r=>server.listen(port,'127.0.0.1',r));return {server,url:'http://127.0.0.1:'+server.address().port+base};}
+if(process.argv[1]&&path.resolve(process.argv[1])===fileURLToPath(import.meta.url)){const s=await startServer(path.join(root,'dist'),'/axl-portfolio/',4174);console.log(s.url);}

@@ -1,0 +1,42 @@
+/* Progressive enhancement. Static links and text always remain available. */
+const viewer=document.querySelector('#release-viewer'),menu=document.querySelector('#navigation'),opener=document.querySelector('[data-menu-open]');
+let trigger=null,ownedHistory=false;
+const normalClick=e=>!e.ctrlKey&&!e.metaKey&&!e.shiftKey&&!e.altKey&&e.button===0;
+function lock(){document.documentElement.classList.toggle('modal-open',!!document.querySelector('dialog[open]'));}
+function dismiss(dialog,restore=true){if(!dialog?.open)return;dialog.close();lock();if(dialog===menu){opener?.setAttribute('aria-expanded','false');if(restore)opener?.focus({preventScroll:true});}else if(restore)trigger?.focus({preventScroll:true});}
+function openRelease(id,anchor){const template=document.getElementById('release-'+id);if(!viewer?.showModal||!template)return false;dismiss(menu,false);trigger=anchor||document.querySelector(`[data-release="${id}"]`);viewer.querySelector('[data-viewer-content]').replaceChildren(template.content.cloneNode(true));const title=viewer.querySelector('.release-title');title.id='active-release-title';viewer.setAttribute('aria-labelledby',title.id);if(!viewer.open)viewer.showModal();viewer.scrollTop=0;viewer.querySelector('[data-close]').focus({preventScroll:true});lock();return true;}
+function closeRelease(){if(ownedHistory){ownedHistory=false;history.back();}else{history.replaceState(null,'',location.pathname+location.search);dismiss(viewer);}}
+for(const a of document.querySelectorAll('[data-release]'))a.addEventListener('click',e=>{if(!normalClick(e))return;if(openRelease(a.dataset.release,a)){e.preventDefault();history.pushState(null,'','#release-'+a.dataset.release);ownedHistory=true;}});
+const sync=()=>{dismiss(menu,false);const id=location.hash.startsWith('#release-')?location.hash.slice(9):'';if(id)openRelease(id);else dismiss(viewer);ownedHistory=false;};
+addEventListener('popstate',sync);sync();
+viewer?.querySelector('[data-close]').addEventListener('click',closeRelease);
+for(const d of document.querySelectorAll('dialog')){
+ d.addEventListener('cancel',e=>{e.preventDefault();d===viewer?closeRelease():dismiss(d);});d.addEventListener('close',lock);
+ d.addEventListener('keydown',e=>{if(e.key!=='Tab')return;const items=[...d.querySelectorAll('button:not(:disabled),a[href]')].filter(x=>x.getClientRects().length);const first=items[0],last=items.at(-1);if(e.shiftKey&&(document.activeElement===first||document.activeElement===d)){e.preventDefault();last?.focus();}else if(!e.shiftKey&&document.activeElement===last){e.preventDefault();first?.focus();}});
+ let outsideDown=false;const outside=e=>{const b=d.getBoundingClientRect();return e.clientX<b.left||e.clientX>b.right||e.clientY<b.top||e.clientY>b.bottom;};d.addEventListener('pointerdown',e=>{outsideDown=e.target===d&&outside(e);});d.addEventListener('click',e=>{if(outsideDown&&e.target===d&&outside(e))d===viewer?closeRelease():dismiss(d);outsideDown=false;});
+}
+if(menu?.showModal&&opener){opener.hidden=false;document.querySelector('.fallback-menu').hidden=true;opener.addEventListener('click',()=>{menu.showModal();opener.setAttribute('aria-expanded','true');menu.querySelector('[data-menu-close]').focus();lock();});menu.querySelector('[data-menu-close]').addEventListener('click',()=>dismiss(menu));
+ menu.addEventListener('click',e=>{const a=e.target.closest('a[href]');if(!a||!normalClick(e))return;const target=new URL(a.href);dismiss(menu,false);if(target.origin===location.origin&&target.pathname===location.pathname&&target.hash){const section=document.getElementById(target.hash.slice(1));if(section){e.preventDefault();history.pushState(null,'',target.pathname+target.hash);section.scrollIntoView({behavior:matchMedia('(prefers-reduced-motion: reduce)').matches?'instant':'smooth'});const heading=section.querySelector('h2')||section;heading.setAttribute('tabindex','-1');heading.focus({preventScroll:true});}}});
+ matchMedia('(min-width:1024px)').addEventListener('change',e=>{if(e.matches&&menu.open){dismiss(menu,false);document.querySelector('.desktop-nav a')?.focus({preventScroll:true});}});
+}
+// Preserve the 16:9 shell across activation; closing the disclosure stops its players.
+const restoreVideoPosters=new Map();
+for(const button of document.querySelectorAll('[data-video]')){
+ button.hidden=false;
+ const surface=button.parentElement,poster=surface.querySelector('img');
+ restoreVideoPosters.set(surface,()=>surface.replaceChildren(poster,button));
+ button.addEventListener('click',()=>{
+  const frame=document.createElement('iframe');frame.className='video-frame';
+  frame.src='https://www.youtube-nocookie.com/embed/'+button.dataset.video;
+  frame.title=button.dataset.title;frame.allow='encrypted-media; fullscreen; picture-in-picture';
+  frame.referrerPolicy='strict-origin-when-cross-origin';frame.setAttribute('allowfullscreen','');
+  frame.setAttribute('sandbox','allow-scripts allow-same-origin allow-presentation');
+  surface.replaceChildren(frame);frame.focus();
+ });
+}
+const moreVideos=document.querySelector('.video-more');
+moreVideos?.addEventListener('toggle',()=>{
+ if(!moreVideos.open)for(const surface of moreVideos.querySelectorAll('.video-surface')){
+  if(surface.querySelector('iframe'))restoreVideoPosters.get(surface)?.();
+ }
+});

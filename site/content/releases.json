@@ -1,0 +1,922 @@
+[
+  {
+    "id": "barba-negra-2024",
+    "title": "Barba Negra vs Orelha Peluda",
+    "year": 2024,
+    "type": "album",
+    "artists": "Barba Negra · A.X.L.",
+    "cover": {
+      "path": "assets/images/covers/barba-negra-2024.webp",
+      "width": 300,
+      "height": 300
+    },
+    "spotifyId": "5bnD4SLSWIQVdVk94QtghA",
+    "serviceTitle": "BARBA NEGRA vs AXL - O ROUBO DO LOOP FUNDAMENTAL",
+    "tracks": [
+      {
+        "title": "LOOP FUNDAMENTAL (INTRO)",
+        "artists": "Barba Negra, A.X.L.",
+        "durationMs": 30540,
+        "url": "https://open.spotify.com/track/2A7b29TMtvWD9P3eZx06KD"
+      },
+      {
+        "title": "TÁBUA DE ESMERALDA",
+        "artists": "Barba Negra, A.X.L.",
+        "durationMs": 85871,
+        "url": "https://open.spotify.com/track/62SfCjzKMZxNsNGYxgb5Hp"
+      },
+      {
+        "title": "CINCO DA MANHÃ",
+        "artists": "Barba Negra, A.X.L.",
+        "durationMs": 103684,
+        "url": "https://open.spotify.com/track/23Y6D43TTvAfWcYUYottzo"
+      },
+      {
+        "title": "ESPADA DO ESPÍRITO",
+        "artists": "Barba Negra, A.X.L.",
+        "durationMs": 79698,
+        "url": "https://open.spotify.com/track/0kBkGmPu8JXvgmNvE7DssJ"
+      },
+      {
+        "title": "MEDALHA",
+        "artists": "Barba Negra, A.X.L.",
+        "durationMs": 93329,
+        "url": "https://open.spotify.com/track/7ueUG67T5Rg0KH9bzElKIJ"
+      },
+      {
+        "title": "DOIS PALITO",
+        "artists": "Barba Negra, A.X.L.",
+        "durationMs": 76471,
+        "url": "https://open.spotify.com/track/1QjptCiPpoZ7AoGtL1wfym"
+      },
+      {
+        "title": "FALA BAIXINHO",
+        "artists": "Barba Negra, A.X.L.",
+        "durationMs": 60002,
+        "url": "https://open.spotify.com/track/2TK5ox4IQY7WfOVeQHUTyz"
+      },
+      {
+        "title": "PARALELEPÍPEDO",
+        "artists": "Barba Negra, A.X.L.",
+        "durationMs": 84500,
+        "url": "https://open.spotify.com/track/1HqTlaQCX55GBr2kJ33Edy"
+      },
+      {
+        "title": "ROTTWEILERS",
+        "artists": "Barba Negra, A.X.L.",
+        "durationMs": 89647,
+        "url": "https://open.spotify.com/track/2o9esGLf5ecA8Eixg0S1oJ"
+      },
+      {
+        "title": "O RATO QUE MORA EMBAIXO DA CASINHA DO CACHORRO",
+        "artists": "Barba Negra, A.X.L.",
+        "durationMs": 95287,
+        "url": "https://open.spotify.com/track/7LzPWoKrSkgBmA71GbYc07"
+      },
+      {
+        "title": "BOROGODÓ",
+        "artists": "Barba Negra, A.X.L.",
+        "durationMs": 69247,
+        "url": "https://open.spotify.com/track/4D9zSyROcM847I0pfLn2Nz"
+      },
+      {
+        "title": "A HISTÓRIA DE ORELHA PELUDA (OUTRO)",
+        "artists": "Barba Negra, A.X.L.",
+        "durationMs": 136789,
+        "url": "https://open.spotify.com/track/0lgrWVyZqmUa7c63YioDCR"
+      }
+    ],
+    "listen": "https://open.spotify.com/album/5bnD4SLSWIQVdVk94QtghA",
+    "yearSource": "Links AXL.txt"
+  },
+  {
+    "id": "tudo-mudou-2022",
+    "title": "A Vida de Axel Alberigi, parte 2 Vol. 2: Tudo Mudou",
+    "year": 2022,
+    "type": "album",
+    "artists": "A.X.L.",
+    "cover": {
+      "path": "assets/images/covers/tudo-mudou-2022.webp",
+      "width": 1500,
+      "height": 1500,
+      "small": "assets/images/covers/tudo-mudou-2022-640.webp",
+      "smallWidth": 640
+    },
+    "spotifyId": "4aCYzqIrfiJcljWKL0xOhF",
+    "serviceTitle": "A Vida de Axel Alberigi Parte II",
+    "tracks": [
+      {
+        "title": "Vi Você Nascer Livre",
+        "artists": "A.X.L.",
+        "durationMs": 242891,
+        "url": "https://open.spotify.com/track/6SQIP0kEejAh2l1hDLNmQx"
+      },
+      {
+        "title": "deixadeuscuidardotempo",
+        "artists": "A.X.L.",
+        "durationMs": 273103,
+        "url": "https://open.spotify.com/track/263HrogNYXjdzcmGLiRijX"
+      },
+      {
+        "title": "VELHA CASA",
+        "artists": "A.X.L.",
+        "durationMs": 453033,
+        "url": "https://open.spotify.com/track/3kkbL9nq8RJcoZe5ov3NLV"
+      },
+      {
+        "title": "Novos A$$unto$ da Família",
+        "artists": "A.X.L.",
+        "durationMs": 280000,
+        "url": "https://open.spotify.com/track/1YMGNIxDDGv5fEbfdyYmfi"
+      },
+      {
+        "title": "O Mundo Em Mim, Se Encontrar 2",
+        "artists": "A.X.L.",
+        "durationMs": 272125,
+        "url": "https://open.spotify.com/track/0rLzwfeqCHhk6XdJ5zG9Sg"
+      },
+      {
+        "title": "Eu & Minha Mina",
+        "artists": "A.X.L.",
+        "durationMs": 195164,
+        "url": "https://open.spotify.com/track/06oZTRBWtx1Fw76u0YvzcI"
+      },
+      {
+        "title": "ALGODÃO",
+        "artists": "A.X.L.",
+        "durationMs": 150508,
+        "url": "https://open.spotify.com/track/7evHn5M4AKdeQc3JDDdNuK"
+      },
+      {
+        "title": "Naviosss",
+        "artists": "A.X.L.",
+        "durationMs": 267000,
+        "url": "https://open.spotify.com/track/2EpkrrPM8RT5oP7bjDSA1i"
+      },
+      {
+        "title": "Estrada da Vida",
+        "artists": "A.X.L.",
+        "durationMs": 285569,
+        "url": "https://open.spotify.com/track/3XG3QJvIwD6uQYNc7y3HeQ"
+      }
+    ],
+    "listen": "https://open.spotify.com/album/4aCYzqIrfiJcljWKL0xOhF",
+    "yearSource": "Links AXL.txt"
+  },
+  {
+    "id": "rdf-vol-2-2021",
+    "title": "RDF$$$ Vol. 2: O Vento Varre a Terra",
+    "year": 2021,
+    "type": "compilation",
+    "artists": "RDF$$$ · A.X.L. · Câmara de Ecos",
+    "cover": {
+      "path": "assets/images/covers/rdf-vol-2-2021.webp",
+      "width": 1600,
+      "height": 1600,
+      "small": "assets/images/covers/rdf-vol-2-2021-640.webp",
+      "smallWidth": 640
+    },
+    "spotifyId": "42f9ugznRhzngOc7WxoB1I",
+    "serviceTitle": "RDF$$$, Vol. 2: O Vento Varre a Terra",
+    "tracks": [
+      {
+        "title": "Hohoho",
+        "artists": "RDF$$$, A.X.L., Câmara de Ecos",
+        "durationMs": 241000,
+        "url": "https://open.spotify.com/track/7taAfXSQayGUy45SF5KtJL"
+      },
+      {
+        "title": "Liberdade",
+        "artists": "RDF$$$, A.X.L., Câmara de Ecos",
+        "durationMs": 238762,
+        "url": "https://open.spotify.com/track/70G0imd62tWJ5GlmPdyMpv"
+      },
+      {
+        "title": "Samba da Boa Nova",
+        "artists": "RDF$$$, A.X.L., Câmara de Ecos",
+        "durationMs": 161000,
+        "url": "https://open.spotify.com/track/7FeDMXJvzDvyTDKgDHVpXl"
+      },
+      {
+        "title": "Antes do Show Interlúdio",
+        "artists": "RDF$$$, Câmara de Ecos",
+        "durationMs": 92640,
+        "url": "https://open.spotify.com/track/6vxKc2Ux6yfA6ErhgLBp4i"
+      },
+      {
+        "title": "Baile Rdf",
+        "artists": "RDF$$$, Câmara de Ecos, A.X.L.",
+        "durationMs": 161000,
+        "url": "https://open.spotify.com/track/3m5I1mXGwAJg8zq1ehmXnK"
+      },
+      {
+        "title": "Samba 2",
+        "artists": "RDF$$$, A.X.L., Câmara de Ecos",
+        "durationMs": 127848,
+        "url": "https://open.spotify.com/track/4hq3uvJP9ud3R5v4QeFrki"
+      },
+      {
+        "title": "Faixa 02",
+        "artists": "RDF$$$, A.X.L., Câmara de Ecos, Cascavel, Betel, Ramalho",
+        "durationMs": 148428,
+        "url": "https://open.spotify.com/track/4ZqtyySOmUB8vZi4wG8fT2"
+      },
+      {
+        "title": "Tempo",
+        "artists": "RDF$$$, A.X.L., Câmara de Ecos",
+        "durationMs": 166714,
+        "url": "https://open.spotify.com/track/42mMKMc49m8e8O0qPz9bhy"
+      },
+      {
+        "title": "Mata Que Esta",
+        "artists": "RDF$$$, Câmara de Ecos, A.X.L.",
+        "durationMs": 157000,
+        "url": "https://open.spotify.com/track/7qK0PlDhmzhaVjbhOGTbsc"
+      },
+      {
+        "title": "E por Onde For",
+        "artists": "RDF$$$, Câmara de Ecos, A.X.L., Cascavel",
+        "durationMs": 247734,
+        "url": "https://open.spotify.com/track/5Q857k3IGAWvtnH35CJsdi"
+      }
+    ],
+    "listen": "https://open.spotify.com/album/42f9ugznRhzngOc7WxoB1I",
+    "yearSource": "Links AXL.txt"
+  },
+  {
+    "id": "tudo-de-novo-2020",
+    "title": "A Vida de Axel Alberigi, parte 2: Tudo de Novo",
+    "year": 2020,
+    "type": "album",
+    "artists": "A.X.L.",
+    "cover": {
+      "path": "assets/images/covers/tudo-de-novo-2020.webp",
+      "width": 1600,
+      "height": 1600,
+      "small": "assets/images/covers/tudo-de-novo-2020-640.webp",
+      "smallWidth": 640
+    },
+    "spotifyId": "7x8V3OCxvk0XMWNbVwLsJ4",
+    "serviceTitle": "A Vida de Axel Alberigi, Pt. II",
+    "tracks": [
+      {
+        "title": "Big Fi$H",
+        "artists": "A.X.L.",
+        "durationMs": 182714,
+        "url": "https://open.spotify.com/track/2JoETUh2W6JElMTLTHB8Z7"
+      },
+      {
+        "title": "Marimbondo",
+        "artists": "A.X.L.",
+        "durationMs": 241000,
+        "url": "https://open.spotify.com/track/0EUjD1xTeJl6MaKPNBck0X"
+      },
+      {
+        "title": "Mamangava",
+        "artists": "A.X.L.",
+        "durationMs": 192406,
+        "url": "https://open.spotify.com/track/3nTchHhPWbI8BeWJAdsVsJ"
+      },
+      {
+        "title": "O Inimigo",
+        "artists": "A.X.L.",
+        "durationMs": 209123,
+        "url": "https://open.spotify.com/track/3GVVUG2wjSCAfvBnSbpRMx"
+      },
+      {
+        "title": "A Maldição do Dragão",
+        "artists": "A.X.L.",
+        "durationMs": 269965,
+        "url": "https://open.spotify.com/track/3C41j1sqHBEysDRg2RPzNx"
+      },
+      {
+        "title": "Nada de Novo",
+        "artists": "A.X.L.",
+        "durationMs": 249000,
+        "url": "https://open.spotify.com/track/4qx41aj1r6BNw7wFslTVHe"
+      },
+      {
+        "title": "Guatemala",
+        "artists": "A.X.L., DJ Cost",
+        "durationMs": 248912,
+        "url": "https://open.spotify.com/track/4DDzttiF4rZ4LPj4SgG5v8"
+      },
+      {
+        "title": "Histórias Perdidas",
+        "artists": "A.X.L.",
+        "durationMs": 193000,
+        "url": "https://open.spotify.com/track/1sYCd7cjcVYZ2yUIvNcoxI"
+      },
+      {
+        "title": "Será Doce Morrer",
+        "artists": "A.X.L.",
+        "durationMs": 252428,
+        "url": "https://open.spotify.com/track/3ofF8OONSLWO5XpHB18LnF"
+      }
+    ],
+    "listen": "https://open.spotify.com/album/7x8V3OCxvk0XMWNbVwLsJ4",
+    "yearSource": "Links AXL.txt"
+  },
+  {
+    "id": "rdf-vol-1-2020",
+    "title": "RDF$$$ Vol. 1: Depois da Água Antes do Fogo",
+    "year": 2020,
+    "type": "compilation",
+    "artists": "RDF$$$ · A.X.L. · Câmara de Ecos",
+    "cover": {
+      "path": "assets/images/covers/rdf-vol-1-2020.webp",
+      "width": 1600,
+      "height": 1600,
+      "small": "assets/images/covers/rdf-vol-1-2020-640.webp",
+      "smallWidth": 640
+    },
+    "spotifyId": "746bNLG6I1RpzhTUU3Z8Kj",
+    "serviceTitle": "RDF$$$, Vol. 1: Depois da Água Antes do Fogo",
+    "tracks": [
+      {
+        "title": "O Sol Chegou Mais Cedo",
+        "artists": "A.X.L., Cascavel, Câmara de Ecos, RDF$$$",
+        "durationMs": 262013,
+        "url": "https://open.spotify.com/track/5EiEr9ramMb5RhYE2eEr36"
+      },
+      {
+        "title": "Me Dê Visão",
+        "artists": "A.X.L., Câmara de Ecos, RDF$$$",
+        "durationMs": 169000,
+        "url": "https://open.spotify.com/track/0kbjChjfsHDIQUaG0bsIB8"
+      },
+      {
+        "title": "Do Berço a Sepultura",
+        "artists": "A.X.L., Câmara de Ecos, RDF$$$",
+        "durationMs": 216040,
+        "url": "https://open.spotify.com/track/4HDd7GuWZ2XkbcjLk6usaK"
+      },
+      {
+        "title": "Guia",
+        "artists": "A.X.L., RDF$$$, Cascavel",
+        "durationMs": 154855,
+        "url": "https://open.spotify.com/track/7vGsYVSpxGPbpgTyXpN8Xp"
+      },
+      {
+        "title": "Pode Virá",
+        "artists": "A.X.L., RDF$$$, Câmara de Ecos",
+        "durationMs": 168374,
+        "url": "https://open.spotify.com/track/0oGFtXRVRp51Px0BLo2EH9"
+      },
+      {
+        "title": "Isso É Só",
+        "artists": "A.X.L., RDF$$$",
+        "durationMs": 164722,
+        "url": "https://open.spotify.com/track/5U7kNh2tPVYie3XdvAEIwf"
+      },
+      {
+        "title": "Faixa 01",
+        "artists": "A.X.L., Ramalho, RDF$$$, Cascavel, Câmara de Ecos, Betel",
+        "durationMs": 337459,
+        "url": "https://open.spotify.com/track/4dTsl69OwmeW6YI90LWAg0"
+      },
+      {
+        "title": "Nova Era$$$",
+        "artists": "A.X.L., RDF$$$",
+        "durationMs": 142000,
+        "url": "https://open.spotify.com/track/5csaO7192P5yBNKJZSl0WD"
+      },
+      {
+        "title": "Analogiaeu P.Arte 1",
+        "artists": "A.X.L., RDF$$$, Cascavel",
+        "durationMs": 158649,
+        "url": "https://open.spotify.com/track/6lAFytLs7h09OVUpA4hDni"
+      },
+      {
+        "title": "Analogiaeu P.Arte 2",
+        "artists": "A.X.L., RDF$$$, Cascavel",
+        "durationMs": 154000,
+        "url": "https://open.spotify.com/track/64GzMRG4OJXk4cPqtGPwzp"
+      },
+      {
+        "title": "Você É Fogo",
+        "artists": "A.X.L., RDF$$$",
+        "durationMs": 122026,
+        "url": "https://open.spotify.com/track/4O2DuECHdeqwcFJ6MLdMVh"
+      },
+      {
+        "title": "Black Alien Free$$$Tyle",
+        "artists": "A.X.L., RDF$$$, Câmara de Ecos",
+        "durationMs": 186000,
+        "url": "https://open.spotify.com/track/7gDAcJVDN7e1EtLvlxK8nw"
+      },
+      {
+        "title": "Yea Yea",
+        "artists": "A.X.L., Câmara de Ecos, RDF$$$",
+        "durationMs": 137987,
+        "url": "https://open.spotify.com/track/4OTwgmf8UMga5c3PXamXm7"
+      },
+      {
+        "title": "Cami.Case",
+        "artists": "A.X.L., Câmara de Ecos, RDF$$$",
+        "durationMs": 121000,
+        "url": "https://open.spotify.com/track/7wvIy3mJQvimdvPNu7Kw1k"
+      },
+      {
+        "title": "Era de Taurus",
+        "artists": "A.X.L., RDF$$$",
+        "durationMs": 69866,
+        "url": "https://open.spotify.com/track/4ig32E0VV2UoAmvvEySUrg"
+      },
+      {
+        "title": "Apesar de Tudo",
+        "artists": "A.X.L., RDF$$$",
+        "durationMs": 191164,
+        "url": "https://open.spotify.com/track/523qKhYIEd1P9n7Aum43hZ"
+      },
+      {
+        "title": "Corte D'alma",
+        "artists": "A.X.L., RDF$$$, Câmara de Ecos, Cascavel",
+        "durationMs": 195918,
+        "url": "https://open.spotify.com/track/4rGuVhAZUZNOGiuCTDA87I"
+      }
+    ],
+    "listen": "https://open.spotify.com/album/746bNLG6I1RpzhTUU3Z8Kj",
+    "yearSource": "Links AXL.txt"
+  },
+  {
+    "id": "antes-de-tudo-2014",
+    "title": "A Vida de Axel Alberigi: Antes de Tudo",
+    "year": 2014,
+    "type": "album",
+    "artists": "A.X.L.",
+    "cover": {
+      "path": "assets/images/covers/antes-de-tudo-2014.webp",
+      "width": 1401,
+      "height": 1401,
+      "small": "assets/images/covers/antes-de-tudo-2014-640.webp",
+      "smallWidth": 640
+    },
+    "spotifyId": "6wuaijn0Wg1pDziPuhZKNe",
+    "serviceTitle": "A Vida de Axel Alberigi: Antes de Tudo",
+    "tracks": [
+      {
+        "title": "Pretérito",
+        "artists": "A.X.L.",
+        "durationMs": 359446,
+        "url": "https://open.spotify.com/track/4LSJTilPZPQmJwQ9AmYDS2"
+      },
+      {
+        "title": "Aquela Noite",
+        "artists": "A.X.L.",
+        "durationMs": 312286,
+        "url": "https://open.spotify.com/track/7JaJfkBkjSLGKWD0Rv3coz"
+      },
+      {
+        "title": "O Garoto Não Pode Ouvir",
+        "artists": "A.X.L.",
+        "durationMs": 141550,
+        "url": "https://open.spotify.com/track/0mrSqxjkKawgz8iIadRcZF"
+      },
+      {
+        "title": "O Mundo Em Mim, Se Encontrar",
+        "artists": "A.X.L.",
+        "durationMs": 261463,
+        "url": "https://open.spotify.com/track/1exy9VpdsTOecir5zWIKc6"
+      },
+      {
+        "title": "Feito Com a Gente",
+        "artists": "A.X.L.",
+        "durationMs": 253006,
+        "url": "https://open.spotify.com/track/1NCeUmmhnOvLDBwYB5Fzx5"
+      },
+      {
+        "title": "Quando o Céu Se Abriu",
+        "artists": "A.X.L.",
+        "durationMs": 226790,
+        "url": "https://open.spotify.com/track/2P69AEhOymuCMHNH8UjXwV"
+      },
+      {
+        "title": "Não Chore Minha Morte",
+        "artists": "A.X.L.",
+        "durationMs": 364380,
+        "url": "https://open.spotify.com/track/09ahkKq2imcWOJxNB9KUY5"
+      },
+      {
+        "title": "Antes de um Crime",
+        "artists": "A.X.L.",
+        "durationMs": 214762,
+        "url": "https://open.spotify.com/track/6uHfrRw1PGIcLXIfsfYlFX"
+      },
+      {
+        "title": "Cela Sete",
+        "artists": "A.X.L.",
+        "durationMs": 265150,
+        "url": "https://open.spotify.com/track/0YXikfg9OTEpletTMUUjrP"
+      }
+    ],
+    "listen": "https://open.spotify.com/album/6wuaijn0Wg1pDziPuhZKNe",
+    "yearSource": "Links AXL.txt"
+  },
+  {
+    "id": "quando-e-preciso-voltar-2011",
+    "title": "Quando É Preciso Voltar",
+    "year": 2011,
+    "type": "album",
+    "artists": "A.X.L. · Skeeter",
+    "cover": {
+      "path": "assets/images/covers/quando-e-preciso-voltar-2011.webp",
+      "width": 1400,
+      "height": 1400,
+      "small": "assets/images/covers/quando-e-preciso-voltar-2011-640.webp",
+      "smallWidth": 640
+    },
+    "spotifyId": "0nLvIHbTPxE9aPmcP45T6D",
+    "serviceTitle": "Quando É Preciso Voltar",
+    "tracks": [
+      {
+        "title": "E Quem É",
+        "artists": "A.X.L., Skeeter",
+        "durationMs": 71321,
+        "url": "https://open.spotify.com/track/1mBw8tExN57uAMswTZeXH6"
+      },
+      {
+        "title": "Não, Mano!",
+        "artists": "A.X.L., Skeeter",
+        "durationMs": 220585,
+        "url": "https://open.spotify.com/track/7lA9AOZodwUzaIiDXNoJG9"
+      },
+      {
+        "title": "Antes do Meu Final",
+        "artists": "A.X.L., Skeeter",
+        "durationMs": 209822,
+        "url": "https://open.spotify.com/track/6A0tf1o44NcKVnjuwe5ZwQ"
+      },
+      {
+        "title": "Mundos em Particular",
+        "artists": "A.X.L., Skeeter, Rashid",
+        "durationMs": 217528,
+        "url": "https://open.spotify.com/track/5xyqruB0C6S8S7L6yEdqzK"
+      },
+      {
+        "title": "Um, Dois",
+        "artists": "A.X.L., Skeeter",
+        "durationMs": 73019,
+        "url": "https://open.spotify.com/track/4kyktt9XfW0sL8iA1YKFUU"
+      },
+      {
+        "title": "Vai Ti Controlar",
+        "artists": "A.X.L., Skeeter",
+        "durationMs": 183308,
+        "url": "https://open.spotify.com/track/7jWJqJtmyiONKSuieKsqJM"
+      },
+      {
+        "title": "Luz da Noite",
+        "artists": "A.X.L., Skeeter, Fióti",
+        "durationMs": 202613,
+        "url": "https://open.spotify.com/track/3SxyRLUbpefUgFf5wEOD99"
+      },
+      {
+        "title": "Flor Laranja",
+        "artists": "A.X.L., Skeeter, Tassia Reis",
+        "durationMs": 235893,
+        "url": "https://open.spotify.com/track/4Oct09kM0spNmbowmgmjE4"
+      },
+      {
+        "title": "Pretensão",
+        "artists": "A.X.L., Skeeter, Tassia Reis, Xara",
+        "durationMs": 240464,
+        "url": "https://open.spotify.com/track/4gURZBda7wSZjPn3U0WsIP"
+      },
+      {
+        "title": "Preciso Voltar",
+        "artists": "A.X.L., Skeeter, Rael",
+        "durationMs": 226384,
+        "url": "https://open.spotify.com/track/5AttEG8vQsDehhO6ghf90s"
+      }
+    ],
+    "listen": "https://open.spotify.com/album/0nLvIHbTPxE9aPmcP45T6D",
+    "yearSource": "Links AXL.txt"
+  },
+  {
+    "id": "caos-pessoal-2010",
+    "title": "Caos Pessoal",
+    "year": 2010,
+    "type": "mixtape",
+    "artists": "A.X.L.",
+    "cover": {
+      "path": "assets/images/covers/caos-pessoal-2010.webp",
+      "width": 1400,
+      "height": 1400,
+      "small": "assets/images/covers/caos-pessoal-2010-640.webp",
+      "smallWidth": 640
+    },
+    "spotifyId": "4kgZ6BMJvP6Mni09OUCtrB",
+    "serviceTitle": "Caos Pessoal",
+    "tracks": [
+      {
+        "title": "Agora É Pessoal",
+        "artists": "A.X.L., DJ Sleep",
+        "durationMs": 186630,
+        "url": "https://open.spotify.com/track/6A2dvZuQsMWRNF5TpURbs3"
+      },
+      {
+        "title": "Plano Noturno",
+        "artists": "A.X.L.",
+        "durationMs": 189788,
+        "url": "https://open.spotify.com/track/7oa7o6o4LznPJUM0Mi2tCf"
+      },
+      {
+        "title": "É Nóiz!",
+        "artists": "A.X.L., DJ Sleep",
+        "durationMs": 181521,
+        "url": "https://open.spotify.com/track/2ApzEKlRFCteEI8uK86sqp"
+      },
+      {
+        "title": "Memórias do Concreto",
+        "artists": "A.X.L., DJ Sleep",
+        "durationMs": 171247,
+        "url": "https://open.spotify.com/track/3G2L3o49ZsGiXAUuU4fJ3E"
+      },
+      {
+        "title": "Cada Vez Mais",
+        "artists": "A.X.L.",
+        "durationMs": 203116,
+        "url": "https://open.spotify.com/track/6sbUB8liicIZ1qUPeJMpTs"
+      },
+      {
+        "title": "Jogo de Dados",
+        "artists": "A.X.L.",
+        "durationMs": 94296,
+        "url": "https://open.spotify.com/track/0YEjKL1mKNN8UKDfVAAWBV"
+      },
+      {
+        "title": "Ladrão de Sonhos",
+        "artists": "A.X.L.",
+        "durationMs": 176831,
+        "url": "https://open.spotify.com/track/4KSvbAMm9YObe2R1RtXQLn"
+      },
+      {
+        "title": "Entre Linhas",
+        "artists": "A.X.L.",
+        "durationMs": 160241,
+        "url": "https://open.spotify.com/track/4E8sNikdmVcJzsIZ00cyxH"
+      },
+      {
+        "title": "Ela Ainda Me Faz",
+        "artists": "A.X.L.",
+        "durationMs": 242253,
+        "url": "https://open.spotify.com/track/4oTRUeGUuAu6dwhzXrSDIB"
+      },
+      {
+        "title": "É o Vale Carai",
+        "artists": "A.X.L.",
+        "durationMs": 216526,
+        "url": "https://open.spotify.com/track/6B3qd9tYxf5njF0SqjxSPM"
+      },
+      {
+        "title": "Não Está Legal",
+        "artists": "A.X.L.",
+        "durationMs": 226790,
+        "url": "https://open.spotify.com/track/7i2W0swovpFaUTPr5O7CDh"
+      },
+      {
+        "title": "Só Eu Sei",
+        "artists": "A.X.L.",
+        "durationMs": 227346,
+        "url": "https://open.spotify.com/track/5Mhu3gHNKRG0rQ4MedCndc"
+      },
+      {
+        "title": "Silêncio",
+        "artists": "A.X.L.",
+        "durationMs": 195860,
+        "url": "https://open.spotify.com/track/0fUB5QZCjAdIRqnMcbjvBC"
+      }
+    ],
+    "listen": "https://open.spotify.com/album/4kgZ6BMJvP6Mni09OUCtrB",
+    "yearSource": "Links AXL.txt"
+  },
+  {
+    "id": "fantasmas-2022",
+    "title": "Fantasmas",
+    "year": 2022,
+    "type": "single",
+    "artists": "DJ Caique · A.X.L.",
+    "cover": {
+      "path": "assets/images/covers/fantasmas-2022.webp",
+      "width": 300,
+      "height": 300
+    },
+    "spotifyId": "3phpGituVhLMV9cPFcv2Go",
+    "serviceTitle": "Fantasmas",
+    "tracks": [
+      {
+        "title": "Fantasmas",
+        "artists": "DJ Caique, A.X.L.",
+        "durationMs": 184180,
+        "url": "https://open.spotify.com/track/3RuxiOnq4PdK9ti61U2HgT"
+      }
+    ],
+    "listen": "https://open.spotify.com/album/3phpGituVhLMV9cPFcv2Go",
+    "yearSource": "Links AXL.txt"
+  },
+  {
+    "id": "axl-pai-guga-2020",
+    "title": "A.X.L. & pai guga",
+    "year": 2020,
+    "type": "ep",
+    "artists": "A.X.L. · pai guga",
+    "cover": {
+      "path": "assets/images/covers/axl-pai-guga-2020.webp",
+      "width": 1600,
+      "height": 1600,
+      "small": "assets/images/covers/axl-pai-guga-2020-640.webp",
+      "smallWidth": 640
+    },
+    "spotifyId": "5eZjufPIUxPzAW7WnjlTXW",
+    "serviceTitle": "A.X.L & Pai Guga",
+    "tracks": [
+      {
+        "title": "Imune",
+        "artists": "Câmara de Ecos",
+        "durationMs": 282600,
+        "url": "https://open.spotify.com/track/7rPUqc57losJP9zuFJ4sCR"
+      },
+      {
+        "title": "O Corpo Sabe",
+        "artists": "A.X.L., pai guga",
+        "durationMs": 253672,
+        "url": "https://open.spotify.com/track/3dXZfp8PnLHwtLIx4GHaFg"
+      }
+    ],
+    "listen": "https://open.spotify.com/album/5eZjufPIUxPzAW7WnjlTXW",
+    "yearSource": "Links AXL.txt"
+  },
+  {
+    "id": "ouro-no-sangue-2019",
+    "title": "Ouro No Sangue",
+    "year": 2019,
+    "type": "single",
+    "artists": "A.X.L.",
+    "cover": {
+      "path": "assets/images/covers/ouro-no-sangue-2019.webp",
+      "width": 1400,
+      "height": 1400,
+      "small": "assets/images/covers/ouro-no-sangue-2019-640.webp",
+      "smallWidth": 640
+    },
+    "spotifyId": "7C1x4ET9jQfmtgzP43rHJH",
+    "serviceTitle": "Ouro No Sangue",
+    "tracks": [
+      {
+        "title": "Ouro No Sangue",
+        "artists": "A.X.L.",
+        "durationMs": 159783,
+        "url": "https://open.spotify.com/track/1OcAFz0VXdZxebTZ5bZMCw"
+      }
+    ],
+    "listen": "https://open.spotify.com/album/7C1x4ET9jQfmtgzP43rHJH",
+    "yearSource": "Links AXL.txt"
+  },
+  {
+    "id": "heranca-verde-escuro-2017",
+    "title": "Herança Verde Escuro",
+    "year": 2017,
+    "type": "single",
+    "artists": "A.X.L.",
+    "cover": {
+      "path": "assets/images/covers/heranca-verde-escuro-2017.webp",
+      "width": 1400,
+      "height": 1400,
+      "small": "assets/images/covers/heranca-verde-escuro-2017-640.webp",
+      "smallWidth": 640
+    },
+    "spotifyId": "6DP7xZ7aankYAsW2elMhNG",
+    "serviceTitle": "Herança Verde Escuro",
+    "tracks": [
+      {
+        "title": "Herança Verde Escuro",
+        "artists": "A.X.L.",
+        "durationMs": 322738,
+        "url": "https://open.spotify.com/track/2SkwRQyEgity99EaVzd1Aa"
+      }
+    ],
+    "listen": "https://open.spotify.com/album/6DP7xZ7aankYAsW2elMhNG",
+    "yearSource": "Links AXL.txt"
+  },
+  {
+    "id": "triz-2016",
+    "title": "TRIZ",
+    "year": 2016,
+    "type": "ep",
+    "artists": "A.X.L. · Leonardo Irian",
+    "cover": {
+      "path": "assets/images/covers/triz-2016.webp",
+      "width": 1600,
+      "height": 1600,
+      "small": "assets/images/covers/triz-2016-640.webp",
+      "smallWidth": 640
+    },
+    "spotifyId": null,
+    "serviceTitle": null,
+    "tracks": [],
+    "listen": "https://www.youtube.com/watch?v=h1MeguEF90E",
+    "yearSource": "Supplied cover filename"
+  },
+  {
+    "id": "o-bagulho-e-doidao-2012",
+    "title": "O Bagulho É Doidão",
+    "year": 2012,
+    "type": "single",
+    "artists": "A.X.L.",
+    "cover": {
+      "path": "assets/images/covers/o-bagulho-e-doidao-2012.webp",
+      "width": 1400,
+      "height": 1400,
+      "small": "assets/images/covers/o-bagulho-e-doidao-2012-640.webp",
+      "smallWidth": 640
+    },
+    "spotifyId": "2kFAQTsynDZfuMNNUCUO5r",
+    "serviceTitle": "O Bagulho É Doidão",
+    "tracks": [
+      {
+        "title": "O Bagulho É Doidão",
+        "artists": "A.X.L.",
+        "durationMs": 238586,
+        "url": "https://open.spotify.com/track/1vMOsGog40vKxlqVyMMw72"
+      }
+    ],
+    "listen": "https://open.spotify.com/album/2kFAQTsynDZfuMNNUCUO5r",
+    "yearSource": "Links AXL.txt"
+  },
+  {
+    "id": "nao-mano-remix-2012",
+    "title": "Não, Mano! REMIX",
+    "year": 2012,
+    "type": "single",
+    "artists": "A.X.L. · Skeeter · Flora Matos · MV Bill",
+    "cover": {
+      "path": "assets/images/covers/nao-mano-remix-2012.webp",
+      "width": 1400,
+      "height": 1400,
+      "small": "assets/images/covers/nao-mano-remix-2012-640.webp",
+      "smallWidth": 640
+    },
+    "spotifyId": "4vzNPOoTyOojq5SS4QiGIz",
+    "serviceTitle": "Não, Mano!",
+    "tracks": [
+      {
+        "title": "Não, Mano!",
+        "artists": "A.X.L., Skeeter, MV Bill, Flora Matos",
+        "durationMs": 267657,
+        "url": "https://open.spotify.com/track/2eKhdaLcRkXnu0nbtw7QOT"
+      }
+    ],
+    "listen": "https://open.spotify.com/album/4vzNPOoTyOojq5SS4QiGIz",
+    "yearSource": "Links AXL.txt"
+  },
+  {
+    "id": "uma-lagrima-2009",
+    "title": "Uma Lágrima",
+    "year": 2009,
+    "type": "single",
+    "artists": "A.X.L.",
+    "cover": {
+      "path": "assets/images/covers/uma-lagrima-2009.webp",
+      "width": 1400,
+      "height": 1400,
+      "small": "assets/images/covers/uma-lagrima-2009-640.webp",
+      "smallWidth": 640
+    },
+    "spotifyId": "1pZV2pfGqY7lrfDWhwVSBd",
+    "serviceTitle": "Uma Lágrima",
+    "tracks": [
+      {
+        "title": "Uma Lágrima",
+        "artists": "A.X.L.",
+        "durationMs": 245771,
+        "url": "https://open.spotify.com/track/7z5w1BfcAIqlLAJUnpvpeE"
+      },
+      {
+        "title": "Uma Lágrima - REMIX",
+        "artists": "A.X.L.",
+        "durationMs": 233391,
+        "url": "https://open.spotify.com/track/5mPaigOMQgYxtWOKqPuXyE"
+      }
+    ],
+    "listen": "https://open.spotify.com/album/1pZV2pfGqY7lrfDWhwVSBd",
+    "yearSource": "Links AXL.txt"
+  },
+  {
+    "id": "curta-metragem-2008",
+    "title": "Curta Metragem",
+    "year": 2008,
+    "type": "ep",
+    "artists": "A.X.L.",
+    "cover": {
+      "path": "assets/images/covers/curta-metragem-2008.webp",
+      "width": 597,
+      "height": 600
+    },
+    "spotifyId": null,
+    "serviceTitle": null,
+    "tracks": [],
+    "listen": "https://www.youtube.com/watch?v=w48_T5GBsG8",
+    "yearSource": "Links AXL.txt"
+  }
+]
